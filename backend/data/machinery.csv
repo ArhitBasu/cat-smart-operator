@@ -1,0 +1,564 @@
+timestamp,machine_id,operator_id,machine_type,engine_hours,fuel_used,load_cycles,idling_time,seatbelt_status,safety_alert_triggered,task_type,terrain,temperature,operator_experience,task_completion_time
+2025-05-15 08:00:00,EXC001,OP1001,Excavator,1523.5,5.2,12,15,Fastened,No,Excavation,Hard Clay,28,5,42
+2025-05-15 10:00:00,EXC001,OP1001,Excavator,1524.8,3.8,2,55,Unfastened,Yes,Excavation,Hard Clay,30,5,58
+2025-05-15 14:00:00,EXC001,OP1001,Excavator,1530.2,14.5,1,65,Unfastened,Yes,Excavation,Rocky,34,5,75
+2025-05-01 16:00:00,EXC001,OP1011,Excavator,2104.7,8.6,20,5,Fastened,No,Loading,Hard Clay,29,11,42
+2025-05-01 16:00:00,EXC002,OP1003,Excavator,1379.5,8.5,14,27,Fastened,No,Trenching,Soft Mud,17,1,71
+2025-05-01 16:00:00,BKH001,OP1002,Backhoe,1681.7,7.3,11,28,Fastened,No,Loading,Soft Mud,32,2,38
+2025-05-01 16:00:00,TRK001,OP1005,Haul Truck,1328.8,5.4,10,28,Fastened,No,Material Hauling,Soft Mud,27,5,48
+2025-05-01 16:00:00,WLD001,OP1011,Wheel Loader,1497.8,6.6,9,29,Fastened,No,Material Hauling,Paved,38,11,37
+2025-05-01 16:00:00,CRN001,OP1011,Crane,1756.1,6.2,12,9,Fastened,No,Excavation,Hard Clay,16,11,51
+2025-05-01 16:00:00,EXC003,OP1004,Excavator,1325.5,7.6,10,40,Fastened,No,Loading,Gravel,19,12,38
+2025-05-01 16:00:00,TRK002,OP1007,Haul Truck,1480.3,2.8,4,12,Fastened,No,Material Hauling,Paved,30,4,42
+2025-05-01 18:00:00,EXC001,OP1002,Excavator,2106.0,4.8,10,5,Fastened,No,Site Grading,Gravel,31,2,58
+2025-05-01 18:00:00,EXC002,OP1011,Excavator,1380.8,15.0,16,73,Unfastened,Yes,Trenching,Gravel,20,11,67
+2025-05-01 18:00:00,BKH001,OP1003,Backhoe,1683.2,7.0,18,14,Unfastened,Yes,Excavation,Rocky,35,1,64
+2025-05-01 18:00:00,TRK001,OP1001,Haul Truck,1330.4,5.9,13,24,Fastened,No,Loading,Soft Mud,18,11,33
+2025-05-01 18:00:00,WLD001,OP1002,Wheel Loader,1499.6,5.5,6,40,Fastened,No,Excavation,Paved,19,2,49
+2025-05-01 18:00:00,CRN001,OP1009,Crane,1757.9,12.3,23,33,Fastened,No,Material Hauling,Rocky,27,12,45
+2025-05-01 18:00:00,EXC003,OP1006,Excavator,1326.6,13.0,9,72,Unfastened,Yes,Site Grading,Hard Clay,33,4,52
+2025-05-01 18:00:00,TRK002,OP1006,Haul Truck,1481.4,9.3,17,13,Fastened,No,Material Hauling,Rocky,36,4,47
+2025-05-01 20:00:00,EXC001,OP1008,Excavator,2107.9,10.8,23,32,Fastened,No,Material Hauling,Soft Mud,18,3,59
+2025-05-01 20:00:00,EXC002,OP1011,Excavator,1381.9,6.4,9,39,Fastened,No,Loading,Rocky,18,11,32
+2025-05-01 20:00:00,BKH001,OP1002,Backhoe,1684.7,11.8,22,5,Fastened,No,Site Grading,Soft Mud,16,2,66
+2025-05-01 20:00:00,TRK001,OP1007,Haul Truck,1331.9,5.8,7,29,Fastened,No,Material Hauling,Gravel,16,4,42
+2025-05-01 20:00:00,WLD001,OP1012,Wheel Loader,1501.5,5.0,8,8,Fastened,No,Site Grading,Gravel,19,12,47
+2025-05-01 20:00:00,CRN001,OP1001,Crane,1759.5,2.7,3,10,Fastened,No,Site Grading,Paved,20,11,47
+2025-05-01 20:00:00,EXC003,OP1007,Excavator,1327.7,11.4,21,52,Unfastened,Yes,Site Grading,Hard Clay,33,4,70
+2025-05-01 20:00:00,TRK002,OP1006,Haul Truck,1483.3,7.0,10,24,Unfastened,Yes,Material Hauling,Rocky,22,4,38
+2025-05-01 22:00:00,EXC001,OP1008,Excavator,2109.5,7.1,19,21,Fastened,No,Site Grading,Soft Mud,17,3,64
+2025-05-01 22:00:00,EXC002,OP1006,Excavator,1383.2,6.8,11,38,Fastened,No,Loading,Paved,37,4,44
+2025-05-01 22:00:00,BKH001,OP1002,Backhoe,1686.6,4.2,5,14,Fastened,No,Material Hauling,Rocky,18,2,38
+2025-05-01 22:00:00,TRK001,OP1011,Haul Truck,1333.5,4.4,10,8,Fastened,No,Trenching,Paved,30,11,55
+2025-05-01 22:00:00,WLD001,OP1006,Wheel Loader,1503.3,7.8,16,32,Unfastened,Yes,Trenching,Hard Clay,38,4,65
+2025-05-01 22:00:00,CRN001,OP1009,Crane,1760.5,4.7,6,7,Fastened,No,Trenching,Paved,32,12,51
+2025-05-01 22:00:00,EXC003,OP1006,Excavator,1328.9,11.5,19,31,Unfastened,Yes,Material Hauling,Soft Mud,26,4,48
+2025-05-01 22:00:00,TRK002,OP1003,Haul Truck,1485.3,5.6,7,26,Fastened,No,Material Hauling,Gravel,15,1,40
+2025-05-02 00:00:00,EXC001,OP1005,Excavator,2110.6,8.9,17,34,Fastened,No,Excavation,Gravel,16,5,56
+2025-05-02 00:00:00,EXC002,OP1001,Excavator,1384.8,4.2,4,22,Fastened,No,Loading,Rocky,23,11,33
+2025-05-02 00:00:00,BKH001,OP1006,Backhoe,1688.5,7.4,20,21,Fastened,No,Excavation,Rocky,20,4,61
+2025-05-02 00:00:00,TRK001,OP1007,Haul Truck,1335.1,8.2,20,7,Unfastened,Yes,Site Grading,Soft Mud,27,4,69
+2025-05-02 00:00:00,WLD001,OP1011,Wheel Loader,1505.0,4.9,4,26,Fastened,No,Material Hauling,Rocky,28,11,34
+2025-05-02 00:00:00,CRN001,OP1009,Crane,1761.8,8.7,24,13,Fastened,No,Loading,Rocky,27,12,42
+2025-05-02 00:00:00,EXC003,OP1010,Excavator,1330.5,7.7,11,32,Fastened,No,Loading,Paved,15,2,42
+2025-05-02 00:00:00,TRK002,OP1008,Haul Truck,1487.0,5.5,7,23,Fastened,No,Site Grading,Gravel,38,3,54
+2025-05-02 16:00:00,EXC001,OP1011,Excavator,2111.9,5.3,3,35,Fastened,No,Material Hauling,Hard Clay,15,11,39
+2025-05-02 16:00:00,EXC002,OP1010,Excavator,1386.0,6.4,9,5,Fastened,No,Loading,Gravel,27,2,39
+2025-05-02 16:00:00,BKH001,OP1004,Backhoe,1689.7,8.7,19,12,Fastened,No,Site Grading,Gravel,16,12,64
+2025-05-02 16:00:00,TRK001,OP1010,Haul Truck,1336.4,8.5,18,40,Fastened,No,Loading,Paved,38,2,47
+2025-05-02 16:00:00,WLD001,OP1005,Wheel Loader,1506.8,8.0,22,33,Fastened,No,Trenching,Paved,30,5,72
+2025-05-02 16:00:00,CRN001,OP1009,Crane,1762.9,7.8,24,18,Fastened,No,Material Hauling,Hard Clay,27,12,51
+2025-05-02 16:00:00,EXC003,OP1001,Excavator,1331.7,14.1,24,78,Unfastened,Yes,Loading,Gravel,33,11,41
+2025-05-02 16:00:00,TRK002,OP1006,Haul Truck,1488.3,9.9,25,19,Fastened,No,Loading,Gravel,32,4,51
+2025-05-02 18:00:00,EXC001,OP1006,Excavator,2113.6,5.0,6,39,Fastened,No,Loading,Hard Clay,29,4,30
+2025-05-02 18:00:00,EXC002,OP1002,Excavator,1387.7,3.6,3,25,Fastened,No,Material Hauling,Gravel,20,2,39
+2025-05-02 18:00:00,BKH001,OP1005,Backhoe,1691.5,8.4,17,67,Fastened,Yes,Loading,Rocky,17,5,41
+2025-05-02 18:00:00,TRK001,OP1011,Haul Truck,1337.5,4.6,8,14,Fastened,No,Excavation,Soft Mud,22,11,46
+2025-05-02 18:00:00,WLD001,OP1008,Wheel Loader,1508.5,9.4,21,12,Fastened,No,Trenching,Hard Clay,34,3,76
+2025-05-02 18:00:00,CRN001,OP1001,Crane,1764.8,8.8,24,20,Fastened,No,Site Grading,Gravel,27,11,70
+2025-05-02 18:00:00,EXC003,OP1002,Excavator,1333.5,7.8,19,28,Fastened,No,Site Grading,Soft Mud,26,2,67
+2025-05-02 18:00:00,TRK002,OP1008,Haul Truck,1489.4,5.8,6,38,Fastened,No,Trenching,Gravel,37,3,63
+2025-05-02 20:00:00,EXC001,OP1008,Excavator,2115.1,4.7,9,10,Fastened,No,Site Grading,Rocky,25,3,62
+2025-05-02 20:00:00,EXC002,OP1010,Excavator,1389.3,5.7,12,18,Fastened,No,Trenching,Soft Mud,30,2,70
+2025-05-02 20:00:00,BKH001,OP1012,Backhoe,1693.3,6.4,8,31,Fastened,No,Site Grading,Soft Mud,31,12,57
+2025-05-02 20:00:00,TRK001,OP1012,Haul Truck,1339.0,5.5,9,20,Fastened,No,Excavation,Soft Mud,24,12,51
+2025-05-02 20:00:00,WLD001,OP1006,Wheel Loader,1509.9,8.4,24,24,Fastened,No,Site Grading,Rocky,26,4,65
+2025-05-02 20:00:00,CRN001,OP1012,Crane,1766.4,12.8,25,38,Fastened,No,Material Hauling,Hard Clay,21,12,50
+2025-05-02 20:00:00,EXC003,OP1004,Excavator,1334.8,10.0,19,7,Fastened,No,Trenching,Soft Mud,37,12,63
+2025-05-02 20:00:00,TRK002,OP1011,Haul Truck,1491.2,8.9,20,35,Fastened,No,Loading,Soft Mud,15,11,45
+2025-05-02 22:00:00,EXC001,OP1002,Excavator,2116.9,7.6,20,8,Unfastened,Yes,Loading,Gravel,17,2,43
+2025-05-02 22:00:00,EXC002,OP1004,Excavator,1390.5,10.5,21,38,Fastened,No,Loading,Paved,34,12,47
+2025-05-02 22:00:00,BKH001,OP1007,Backhoe,1694.6,10.6,25,18,Fastened,No,Site Grading,Soft Mud,34,4,68
+2025-05-02 22:00:00,TRK001,OP1003,Haul Truck,1340.6,7.3,16,35,Fastened,No,Material Hauling,Soft Mud,28,1,51
+2025-05-02 22:00:00,WLD001,OP1002,Wheel Loader,1511.6,5.2,8,39,Fastened,No,Trenching,Paved,36,2,59
+2025-05-02 22:00:00,CRN001,OP1002,Crane,1767.4,8.5,20,33,Fastened,No,Trenching,Paved,38,2,71
+2025-05-02 22:00:00,EXC003,OP1009,Excavator,1336.4,3.3,3,25,Fastened,No,Loading,Soft Mud,34,12,33
+2025-05-02 22:00:00,TRK002,OP1010,Haul Truck,1492.8,4.0,3,16,Fastened,No,Excavation,Rocky,33,2,45
+2025-05-03 00:00:00,EXC001,OP1010,Excavator,2118.3,8.3,13,25,Fastened,No,Loading,Soft Mud,30,2,43
+2025-05-03 00:00:00,EXC002,OP1005,Excavator,1392.1,8.2,16,21,Fastened,No,Loading,Paved,16,5,45
+2025-05-03 00:00:00,BKH001,OP1001,Backhoe,1696.3,4.4,3,28,Fastened,No,Site Grading,Gravel,28,11,44
+2025-05-03 00:00:00,TRK001,OP1004,Haul Truck,1341.8,12.0,24,6,Fastened,No,Material Hauling,Rocky,29,12,47
+2025-05-03 00:00:00,WLD001,OP1005,Wheel Loader,1513.1,4.5,9,12,Fastened,No,Site Grading,Gravel,17,5,59
+2025-05-03 00:00:00,CRN001,OP1012,Crane,1768.7,7.3,17,40,Fastened,No,Trenching,Gravel,30,12,62
+2025-05-03 00:00:00,EXC003,OP1002,Excavator,1337.6,7.3,10,23,Fastened,No,Loading,Rocky,31,2,44
+2025-05-03 00:00:00,TRK002,OP1008,Haul Truck,1494.7,8.4,13,39,Fastened,No,Loading,Paved,30,3,39
+2025-05-03 16:00:00,EXC001,OP1010,Excavator,2119.7,10.7,25,29,Fastened,No,Loading,Soft Mud,25,2,48
+2025-05-03 16:00:00,EXC002,OP1008,Excavator,1394.1,7.1,12,33,Fastened,No,Material Hauling,Paved,33,3,42
+2025-05-03 16:00:00,BKH001,OP1007,Backhoe,1698.2,7.5,10,30,Fastened,No,Material Hauling,Soft Mud,30,4,46
+2025-05-03 16:00:00,TRK001,OP1007,Haul Truck,1343.8,13.5,21,70,Unfastened,Yes,Loading,Paved,16,4,45
+2025-05-03 16:00:00,WLD001,OP1012,Wheel Loader,1514.2,4.4,7,6,Fastened,No,Excavation,Soft Mud,29,12,47
+2025-05-03 16:00:00,CRN001,OP1007,Crane,1769.9,8.4,23,15,Fastened,No,Site Grading,Gravel,33,4,73
+2025-05-03 16:00:00,EXC003,OP1004,Excavator,1339.1,6.7,16,34,Fastened,No,Site Grading,Hard Clay,22,12,58
+2025-05-03 16:00:00,TRK002,OP1011,Haul Truck,1496.2,10.3,20,32,Fastened,No,Excavation,Gravel,26,11,59
+2025-05-03 18:00:00,EXC001,OP1008,Excavator,2120.8,7.9,20,23,Fastened,No,Loading,Paved,26,3,42
+2025-05-03 18:00:00,EXC002,OP1010,Excavator,1396.0,8.6,17,23,Fastened,No,Excavation,Paved,38,2,58
+2025-05-03 18:00:00,BKH001,OP1011,Backhoe,1699.4,3.5,5,7,Fastened,No,Trenching,Hard Clay,35,11,53
+2025-05-03 18:00:00,TRK001,OP1002,Haul Truck,1345.7,6.7,8,39,Fastened,No,Trenching,Gravel,20,2,61
+2025-05-03 18:00:00,WLD001,OP1003,Wheel Loader,1515.5,7.7,12,34,Unfastened,Yes,Loading,Rocky,38,1,46
+2025-05-03 18:00:00,CRN001,OP1012,Crane,1771.5,2.5,4,5,Fastened,No,Loading,Paved,26,12,34
+2025-05-03 18:00:00,EXC003,OP1005,Excavator,1340.7,6.6,9,40,Fastened,No,Trenching,Soft Mud,36,5,67
+2025-05-03 18:00:00,TRK002,OP1008,Haul Truck,1498.2,10.4,6,51,Unfastened,Yes,Trenching,Gravel,18,3,56
+2025-05-03 20:00:00,EXC001,OP1004,Excavator,2122.7,8.1,13,39,Fastened,No,Material Hauling,Gravel,29,12,42
+2025-05-03 20:00:00,EXC002,OP1011,Excavator,1397.1,9.7,10,61,Unfastened,Yes,Loading,Paved,28,11,33
+2025-05-03 20:00:00,BKH001,OP1006,Backhoe,1700.5,9.5,13,58,Unfastened,Yes,Trenching,Paved,35,4,67
+2025-05-03 20:00:00,TRK001,OP1002,Haul Truck,1347.4,6.3,12,13,Fastened,No,Site Grading,Soft Mud,16,2,64
+2025-05-03 20:00:00,WLD001,OP1004,Wheel Loader,1517.1,15.9,21,77,Fastened,Yes,Material Hauling,Rocky,19,12,51
+2025-05-03 20:00:00,CRN001,OP1005,Crane,1773.3,2.7,2,20,Fastened,No,Excavation,Soft Mud,19,5,43
+2025-05-03 20:00:00,EXC003,OP1012,Excavator,1342.1,8.9,16,37,Fastened,No,Excavation,Soft Mud,30,12,58
+2025-05-03 20:00:00,TRK002,OP1001,Haul Truck,1499.9,11.9,22,8,Fastened,No,Site Grading,Rocky,29,11,60
+2025-05-03 22:00:00,EXC001,OP1008,Excavator,2124.4,5.4,12,9,Fastened,No,Loading,Soft Mud,17,3,40
+2025-05-03 22:00:00,EXC002,OP1007,Excavator,1399.1,8.2,18,11,Fastened,No,Site Grading,Rocky,29,4,67
+2025-05-03 22:00:00,BKH001,OP1012,Backhoe,1702.3,8.4,15,34,Fastened,No,Loading,Gravel,22,12,38
+2025-05-03 22:00:00,TRK001,OP1011,Haul Truck,1348.6,4.1,4,10,Fastened,No,Material Hauling,Gravel,17,11,32
+2025-05-03 22:00:00,WLD001,OP1009,Wheel Loader,1518.1,12.9,23,27,Fastened,No,Site Grading,Paved,25,12,59
+2025-05-03 22:00:00,CRN001,OP1005,Crane,1774.9,7.4,18,35,Fastened,No,Trenching,Soft Mud,33,5,69
+2025-05-03 22:00:00,EXC003,OP1002,Excavator,1343.9,8.8,19,40,Fastened,No,Site Grading,Hard Clay,28,2,65
+2025-05-03 22:00:00,TRK002,OP1001,Haul Truck,1501.1,3.1,2,14,Fastened,No,Trenching,Rocky,26,11,58
+2025-05-04 00:00:00,EXC001,OP1001,Excavator,2125.5,7.3,15,15,Fastened,No,Site Grading,Hard Clay,27,11,63
+2025-05-04 00:00:00,EXC002,OP1010,Excavator,1400.1,10.2,21,52,Unfastened,Yes,Excavation,Hard Clay,20,2,65
+2025-05-04 00:00:00,BKH001,OP1010,Backhoe,1703.8,4.2,5,12,Fastened,No,Trenching,Hard Clay,31,2,65
+2025-05-04 00:00:00,TRK001,OP1005,Haul Truck,1349.7,4.1,2,18,Fastened,No,Loading,Paved,16,5,27
+2025-05-04 00:00:00,WLD001,OP1001,Wheel Loader,1519.6,7.8,14,19,Fastened,No,Loading,Hard Clay,19,11,34
+2025-05-04 00:00:00,CRN001,OP1007,Crane,1776.8,8.4,16,25,Fastened,No,Excavation,Gravel,15,4,59
+2025-05-04 00:00:00,EXC003,OP1005,Excavator,1345.0,8.7,21,28,Fastened,No,Excavation,Rocky,20,5,65
+2025-05-04 00:00:00,TRK002,OP1007,Haul Truck,1502.6,5.6,12,15,Fastened,No,Loading,Rocky,38,4,38
+2025-05-04 16:00:00,EXC001,OP1006,Excavator,2126.9,5.2,6,16,Fastened,No,Material Hauling,Hard Clay,18,4,37
+2025-05-04 16:00:00,EXC002,OP1011,Excavator,1401.6,12.1,23,25,Fastened,No,Site Grading,Paved,29,11,61
+2025-05-04 16:00:00,BKH001,OP1008,Backhoe,1705.2,3.1,3,9,Fastened,No,Trenching,Rocky,33,3,57
+2025-05-04 16:00:00,TRK001,OP1002,Haul Truck,1351.3,11.5,18,40,Fastened,No,Excavation,Paved,34,2,64
+2025-05-04 16:00:00,WLD001,OP1011,Wheel Loader,1520.8,5.8,6,33,Fastened,No,Site Grading,Gravel,31,11,47
+2025-05-04 16:00:00,CRN001,OP1009,Crane,1778.5,8.1,16,38,Fastened,No,Excavation,Hard Clay,37,12,53
+2025-05-04 16:00:00,EXC003,OP1007,Excavator,1346.4,8.4,22,9,Fastened,No,Trenching,Paved,16,4,72
+2025-05-04 16:00:00,TRK002,OP1012,Haul Truck,1504.4,3.9,4,14,Fastened,No,Site Grading,Hard Clay,25,12,54
+2025-05-04 18:00:00,EXC001,OP1007,Excavator,2128.0,8.7,14,26,Fastened,No,Excavation,Rocky,32,4,61
+2025-05-04 18:00:00,EXC002,OP1009,Excavator,1402.7,3.3,2,16,Fastened,No,Loading,Paved,26,12,26
+2025-05-04 18:00:00,BKH001,OP1004,Backhoe,1707.2,6.6,5,39,Fastened,No,Material Hauling,Soft Mud,24,12,35
+2025-05-04 18:00:00,TRK001,OP1010,Haul Truck,1352.4,4.2,7,15,Fastened,No,Loading,Hard Clay,20,2,35
+2025-05-04 18:00:00,WLD001,OP1008,Wheel Loader,1522.4,6.6,9,35,Fastened,No,Loading,Hard Clay,32,3,42
+2025-05-04 18:00:00,CRN001,OP1008,Crane,1779.9,9.9,18,15,Fastened,No,Trenching,Gravel,31,3,69
+2025-05-04 18:00:00,EXC003,OP1001,Excavator,1348.1,9.3,24,12,Fastened,No,Trenching,Paved,18,11,74
+2025-05-04 18:00:00,TRK002,OP1003,Haul Truck,1506.3,6.3,13,31,Fastened,No,Excavation,Hard Clay,29,1,53
+2025-05-04 20:00:00,EXC001,OP1006,Excavator,2129.2,7.3,22,14,Fastened,No,Trenching,Soft Mud,37,4,70
+2025-05-04 20:00:00,EXC002,OP1012,Excavator,1404.2,3.8,2,14,Fastened,No,Site Grading,Soft Mud,17,12,44
+2025-05-04 20:00:00,BKH001,OP1005,Backhoe,1708.5,7.6,15,34,Fastened,No,Excavation,Soft Mud,22,5,60
+2025-05-04 20:00:00,TRK001,OP1001,Haul Truck,1354.1,3.7,6,5,Fastened,No,Site Grading,Hard Clay,37,11,56
+2025-05-04 20:00:00,WLD001,OP1011,Wheel Loader,1523.5,9.5,19,37,Fastened,No,Trenching,Soft Mud,31,11,72
+2025-05-04 20:00:00,CRN001,OP1007,Crane,1781.9,4.4,4,11,Fastened,No,Trenching,Soft Mud,26,4,53
+2025-05-04 20:00:00,EXC003,OP1006,Excavator,1349.6,6.8,17,13,Fastened,No,Material Hauling,Gravel,37,4,48
+2025-05-04 20:00:00,TRK002,OP1004,Haul Truck,1507.3,6.3,11,39,Fastened,No,Material Hauling,Soft Mud,25,12,39
+2025-05-04 22:00:00,EXC001,OP1006,Excavator,2131.1,6.0,5,32,Fastened,No,Excavation,Rocky,23,4,50
+2025-05-04 22:00:00,EXC002,OP1006,Excavator,1406.2,7.9,18,10,Fastened,No,Loading,Gravel,26,4,41
+2025-05-04 22:00:00,BKH001,OP1009,Backhoe,1709.7,10.9,23,33,Fastened,No,Excavation,Soft Mud,25,12,59
+2025-05-04 22:00:00,TRK001,OP1008,Haul Truck,1355.1,4.8,10,8,Fastened,No,Trenching,Paved,28,3,69
+2025-05-04 22:00:00,WLD001,OP1003,Wheel Loader,1525.5,9.9,16,52,Unfastened,Yes,Material Hauling,Paved,36,1,49
+2025-05-04 22:00:00,CRN001,OP1007,Crane,1783.8,10.2,23,28,Fastened,No,Excavation,Paved,19,4,66
+2025-05-04 22:00:00,EXC003,OP1006,Excavator,1351.0,5.2,2,36,Fastened,No,Trenching,Hard Clay,18,4,56
+2025-05-04 22:00:00,TRK002,OP1012,Haul Truck,1508.8,8.9,17,13,Fastened,No,Site Grading,Rocky,37,12,62
+2025-05-05 00:00:00,EXC001,OP1002,Excavator,2132.9,5.4,4,23,Fastened,No,Trenching,Rocky,37,2,64
+2025-05-05 00:00:00,EXC002,OP1003,Excavator,1408.0,4.9,8,20,Fastened,No,Site Grading,Hard Clay,18,1,58
+2025-05-05 00:00:00,BKH001,OP1008,Backhoe,1711.5,16.0,4,62,Fastened,Yes,Site Grading,Hard Clay,34,3,57
+2025-05-05 00:00:00,TRK001,OP1007,Haul Truck,1356.9,7.2,12,33,Fastened,No,Site Grading,Soft Mud,19,4,63
+2025-05-05 00:00:00,WLD001,OP1011,Wheel Loader,1527.1,3.9,3,38,Fastened,No,Material Hauling,Gravel,31,11,32
+2025-05-05 00:00:00,CRN001,OP1006,Crane,1785.8,6.8,10,40,Fastened,No,Site Grading,Rocky,17,4,54
+2025-05-05 00:00:00,EXC003,OP1009,Excavator,1352.7,6.0,7,26,Fastened,No,Site Grading,Paved,19,12,47
+2025-05-05 00:00:00,TRK002,OP1002,Haul Truck,1509.8,5.2,8,31,Fastened,No,Site Grading,Rocky,35,2,60
+2025-05-05 16:00:00,EXC001,OP1005,Excavator,2134.5,7.8,23,34,Fastened,No,Trenching,Gravel,22,5,75
+2025-05-05 16:00:00,EXC002,OP1008,Excavator,1409.2,12.1,24,27,Fastened,No,Site Grading,Hard Clay,25,3,73
+2025-05-05 16:00:00,BKH001,OP1002,Backhoe,1712.9,6.8,16,11,Fastened,No,Loading,Soft Mud,23,2,45
+2025-05-05 16:00:00,TRK001,OP1004,Haul Truck,1358.8,10.3,25,15,Fastened,No,Material Hauling,Rocky,33,12,50
+2025-05-05 16:00:00,WLD001,OP1008,Wheel Loader,1528.1,4.8,9,27,Fastened,No,Loading,Paved,29,3,43
+2025-05-05 16:00:00,CRN001,OP1011,Crane,1787.3,8.8,15,21,Fastened,No,Site Grading,Soft Mud,18,11,60
+2025-05-05 16:00:00,EXC003,OP1001,Excavator,1354.2,11.6,11,66,Unfastened,Yes,Material Hauling,Rocky,32,11,44
+2025-05-05 16:00:00,TRK002,OP1011,Haul Truck,1511.4,7.1,13,26,Fastened,No,Material Hauling,Soft Mud,27,11,46
+2025-05-05 18:00:00,EXC001,OP1009,Excavator,2135.9,4.9,6,35,Fastened,No,Excavation,Soft Mud,16,12,43
+2025-05-05 18:00:00,EXC002,OP1006,Excavator,1411.1,9.9,21,24,Fastened,No,Trenching,Hard Clay,27,4,74
+2025-05-05 18:00:00,BKH001,OP1012,Backhoe,1714.4,7.9,12,31,Fastened,No,Loading,Soft Mud,26,12,41
+2025-05-05 18:00:00,TRK001,OP1001,Haul Truck,1360.4,6.1,9,35,Fastened,No,Trenching,Paved,33,11,60
+2025-05-05 18:00:00,WLD001,OP1003,Wheel Loader,1529.9,9.1,24,6,Fastened,No,Material Hauling,Soft Mud,33,1,54
+2025-05-05 18:00:00,CRN001,OP1007,Crane,1788.8,12.1,25,54,Unfastened,Yes,Site Grading,Gravel,38,4,75
+2025-05-05 18:00:00,EXC003,OP1008,Excavator,1355.7,10.5,19,27,Fastened,No,Trenching,Hard Clay,29,3,70
+2025-05-05 18:00:00,TRK002,OP1010,Haul Truck,1512.9,7.5,11,24,Fastened,No,Material Hauling,Rocky,32,2,47
+2025-05-05 20:00:00,EXC001,OP1006,Excavator,2137.4,6.3,5,39,Fastened,No,Site Grading,Rocky,24,4,51
+2025-05-05 20:00:00,EXC002,OP1005,Excavator,1412.1,9.7,22,35,Fastened,No,Excavation,Rocky,29,5,65
+2025-05-05 20:00:00,BKH001,OP1012,Backhoe,1715.7,9.1,20,8,Fastened,No,Excavation,Paved,38,12,52
+2025-05-05 20:00:00,TRK001,OP1002,Haul Truck,1361.8,15.8,6,67,Unfastened,Yes,Loading,Soft Mud,36,2,41
+2025-05-05 20:00:00,WLD001,OP1008,Wheel Loader,1531.4,5.6,11,10,Fastened,No,Material Hauling,Rocky,25,3,39
+2025-05-05 20:00:00,CRN001,OP1003,Crane,1790.2,8.5,17,23,Fastened,No,Material Hauling,Soft Mud,27,1,46
+2025-05-05 20:00:00,EXC003,OP1006,Excavator,1357.0,5.8,6,34,Fastened,No,Site Grading,Paved,30,4,57
+2025-05-05 20:00:00,TRK002,OP1011,Haul Truck,1514.2,6.4,12,17,Fastened,No,Material Hauling,Soft Mud,38,11,42
+2025-05-05 22:00:00,EXC001,OP1009,Excavator,2138.7,4.0,6,20,Fastened,No,Loading,Soft Mud,20,12,30
+2025-05-05 22:00:00,EXC002,OP1006,Excavator,1413.4,6.9,22,20,Fastened,No,Site Grading,Soft Mud,23,4,69
+2025-05-05 22:00:00,BKH001,OP1011,Backhoe,1717.2,4.9,11,19,Fastened,No,Trenching,Soft Mud,35,11,64
+2025-05-05 22:00:00,TRK001,OP1006,Haul Truck,1363.3,10.9,23,20,Fastened,No,Site Grading,Gravel,32,4,71
+2025-05-05 22:00:00,WLD001,OP1008,Wheel Loader,1532.9,15.2,5,67,Unfastened,Yes,Trenching,Soft Mud,33,3,63
+2025-05-05 22:00:00,CRN001,OP1003,Crane,1791.3,8.8,23,36,Fastened,No,Site Grading,Gravel,18,1,72
+2025-05-05 22:00:00,EXC003,OP1003,Excavator,1358.5,9.5,19,24,Fastened,No,Loading,Paved,16,1,45
+2025-05-05 22:00:00,TRK002,OP1010,Haul Truck,1515.2,3.1,4,8,Unfastened,Yes,Loading,Rocky,37,2,29
+2025-05-06 00:00:00,EXC001,OP1005,Excavator,2140.2,7.7,14,29,Fastened,No,Material Hauling,Gravel,26,5,49
+2025-05-06 00:00:00,EXC002,OP1003,Excavator,1415.1,8.7,19,13,Fastened,No,Trenching,Soft Mud,20,1,67
+2025-05-06 00:00:00,BKH001,OP1005,Backhoe,1718.7,6.4,14,20,Fastened,No,Site Grading,Gravel,32,5,57
+2025-05-06 00:00:00,TRK001,OP1001,Haul Truck,1365.1,5.3,9,11,Fastened,No,Loading,Paved,15,11,29
+2025-05-06 00:00:00,WLD001,OP1004,Wheel Loader,1534.6,7.7,19,8,Fastened,No,Loading,Gravel,22,12,45
+2025-05-06 00:00:00,CRN001,OP1006,Crane,1792.9,5.0,6,38,Fastened,No,Trenching,Hard Clay,24,4,64
+2025-05-06 00:00:00,EXC003,OP1012,Excavator,1360.5,4.2,3,29,Fastened,No,Loading,Paved,30,12,25
+2025-05-06 00:00:00,TRK002,OP1005,Haul Truck,1516.6,6.8,9,14,Fastened,No,Site Grading,Gravel,22,5,58
+2025-05-06 16:00:00,EXC001,OP1009,Excavator,2141.7,6.3,8,10,Fastened,No,Loading,Hard Clay,23,12,30
+2025-05-06 16:00:00,EXC002,OP1001,Excavator,1416.4,4.4,4,40,Fastened,No,Site Grading,Paved,16,11,49
+2025-05-06 16:00:00,BKH001,OP1001,Backhoe,1719.9,7.1,17,18,Fastened,No,Material Hauling,Soft Mud,38,11,44
+2025-05-06 16:00:00,TRK001,OP1007,Haul Truck,1366.5,8.2,13,36,Fastened,No,Trenching,Rocky,23,4,65
+2025-05-06 16:00:00,WLD001,OP1004,Wheel Loader,1536.0,5.4,9,6,Fastened,No,Loading,Soft Mud,33,12,34
+2025-05-06 16:00:00,CRN001,OP1005,Crane,1794.1,10.9,20,36,Fastened,No,Trenching,Hard Clay,27,5,73
+2025-05-06 16:00:00,EXC003,OP1012,Excavator,1362.1,8.5,25,15,Fastened,No,Loading,Gravel,20,12,49
+2025-05-06 16:00:00,TRK002,OP1011,Haul Truck,1518.6,11.3,23,50,Fastened,Yes,Site Grading,Soft Mud,17,11,63
+2025-05-06 18:00:00,EXC001,OP1002,Excavator,2143.4,8.1,16,35,Fastened,No,Excavation,Hard Clay,31,2,60
+2025-05-06 18:00:00,EXC002,OP1001,Excavator,1417.4,5.1,2,32,Fastened,No,Trenching,Paved,24,11,49
+2025-05-06 18:00:00,BKH001,OP1009,Backhoe,1721.0,5.8,10,22,Unfastened,Yes,Material Hauling,Paved,31,12,41
+2025-05-06 18:00:00,TRK001,OP1010,Haul Truck,1367.8,3.0,4,7,Fastened,No,Material Hauling,Rocky,36,2,34
+2025-05-06 18:00:00,WLD001,OP1011,Wheel Loader,1537.0,8.7,15,26,Fastened,No,Material Hauling,Soft Mud,30,11,47
+2025-05-06 18:00:00,CRN001,OP1001,Crane,1795.3,4.4,3,22,Fastened,No,Site Grading,Gravel,23,11,49
+2025-05-06 18:00:00,EXC003,OP1001,Excavator,1364.1,5.9,14,24,Fastened,No,Site Grading,Hard Clay,37,11,59
+2025-05-06 18:00:00,TRK002,OP1011,Haul Truck,1520.5,5.2,6,10,Fastened,No,Trenching,Gravel,38,11,57
+2025-05-06 20:00:00,EXC001,OP1004,Excavator,2145.2,7.1,21,25,Unfastened,Yes,Trenching,Paved,34,12,70
+2025-05-06 20:00:00,EXC002,OP1004,Excavator,1418.7,8.7,23,29,Fastened,No,Loading,Gravel,20,12,40
+2025-05-06 20:00:00,BKH001,OP1002,Backhoe,1722.3,6.5,14,11,Fastened,No,Loading,Hard Clay,38,2,41
+2025-05-06 20:00:00,TRK001,OP1002,Haul Truck,1368.9,6.9,19,31,Fastened,No,Material Hauling,Gravel,29,2,55
+2025-05-06 20:00:00,WLD001,OP1010,Wheel Loader,1538.8,7.8,15,10,Unfastened,Yes,Loading,Soft Mud,24,2,41
+2025-05-06 20:00:00,CRN001,OP1010,Crane,1796.8,5.4,10,36,Fastened,No,Loading,Hard Clay,19,2,38
+2025-05-06 20:00:00,EXC003,OP1008,Excavator,1365.8,9.4,25,17,Fastened,No,Trenching,Rocky,22,3,77
+2025-05-06 20:00:00,TRK002,OP1006,Haul Truck,1522.3,6.0,12,13,Fastened,No,Loading,Rocky,29,4,42
+2025-05-06 22:00:00,EXC001,OP1006,Excavator,2146.4,14.2,25,36,Fastened,No,Loading,Rocky,24,4,49
+2025-05-06 22:00:00,EXC002,OP1007,Excavator,1420.1,8.4,19,40,Unfastened,Yes,Site Grading,Hard Clay,33,4,63
+2025-05-06 22:00:00,BKH001,OP1008,Backhoe,1724.1,7.7,17,24,Fastened,No,Excavation,Gravel,36,3,60
+2025-05-06 22:00:00,TRK001,OP1002,Haul Truck,1370.4,8.5,14,31,Fastened,No,Site Grading,Gravel,33,2,65
+2025-05-06 22:00:00,WLD001,OP1010,Wheel Loader,1540.5,9.4,23,15,Unfastened,Yes,Excavation,Soft Mud,22,2,69
+2025-05-06 22:00:00,CRN001,OP1011,Crane,1798.2,3.6,2,19,Fastened,No,Trenching,Gravel,18,11,57
+2025-05-06 22:00:00,EXC003,OP1004,Excavator,1367.3,7.1,20,14,Fastened,No,Loading,Gravel,36,12,43
+2025-05-06 22:00:00,TRK002,OP1002,Haul Truck,1523.4,6.2,12,18,Fastened,No,Material Hauling,Rocky,24,2,48
+2025-05-07 00:00:00,EXC001,OP1006,Excavator,2147.5,7.9,12,15,Fastened,No,Excavation,Soft Mud,15,4,58
+2025-05-07 00:00:00,EXC002,OP1003,Excavator,1421.4,7.3,14,16,Fastened,No,Loading,Gravel,22,1,47
+2025-05-07 00:00:00,BKH001,OP1004,Backhoe,1725.5,12.1,24,22,Fastened,No,Loading,Gravel,15,12,41
+2025-05-07 00:00:00,TRK001,OP1009,Haul Truck,1371.5,5.6,5,36,Fastened,No,Trenching,Hard Clay,29,12,59
+2025-05-07 00:00:00,WLD001,OP1007,Wheel Loader,1542.0,11.4,21,24,Fastened,No,Trenching,Rocky,29,4,72
+2025-05-07 00:00:00,CRN001,OP1002,Crane,1799.5,9.5,24,29,Fastened,No,Excavation,Hard Clay,26,2,62
+2025-05-07 00:00:00,EXC003,OP1008,Excavator,1368.9,7.2,17,16,Fastened,No,Material Hauling,Paved,20,3,49
+2025-05-07 00:00:00,TRK002,OP1001,Haul Truck,1524.9,9.4,18,31,Fastened,No,Material Hauling,Gravel,32,11,48
+2025-05-07 16:00:00,EXC001,OP1003,Excavator,2148.6,5.3,3,39,Fastened,No,Excavation,Hard Clay,24,1,51
+2025-05-07 16:00:00,EXC002,OP1009,Excavator,1422.9,9.8,19,28,Fastened,No,Site Grading,Soft Mud,23,12,63
+2025-05-07 16:00:00,BKH001,OP1009,Backhoe,1726.8,10.5,22,24,Fastened,No,Loading,Soft Mud,38,12,40
+2025-05-07 16:00:00,TRK001,OP1008,Haul Truck,1373.4,12.9,25,27,Fastened,No,Excavation,Hard Clay,21,3,70
+2025-05-07 16:00:00,WLD001,OP1003,Wheel Loader,1543.8,7.9,13,39,Fastened,No,Material Hauling,Soft Mud,33,1,51
+2025-05-07 16:00:00,CRN001,OP1005,Crane,1801.4,8.0,15,22,Fastened,No,Site Grading,Soft Mud,19,5,60
+2025-05-07 16:00:00,EXC003,OP1003,Excavator,1370.6,4.8,6,22,Fastened,No,Material Hauling,Gravel,30,1,37
+2025-05-07 16:00:00,TRK002,OP1007,Haul Truck,1526.4,9.3,17,5,Fastened,No,Trenching,Rocky,29,4,71
+2025-05-07 18:00:00,EXC001,OP1011,Excavator,2150.2,8.7,14,32,Fastened,No,Trenching,Soft Mud,32,11,62
+2025-05-07 18:00:00,EXC002,OP1006,Excavator,1424.5,5.2,12,8,Fastened,No,Material Hauling,Paved,30,4,40
+2025-05-07 18:00:00,BKH001,OP1002,Backhoe,1728.7,4.5,2,32,Fastened,No,Material Hauling,Gravel,29,2,43
+2025-05-07 18:00:00,TRK001,OP1005,Haul Truck,1374.6,8.0,13,28,Fastened,No,Trenching,Soft Mud,35,5,70
+2025-05-07 18:00:00,WLD001,OP1005,Wheel Loader,1545.5,2.4,4,5,Fastened,No,Material Hauling,Gravel,35,5,41
+2025-05-07 18:00:00,CRN001,OP1011,Crane,1802.9,6.7,15,35,Fastened,No,Excavation,Rocky,18,11,50
+2025-05-07 18:00:00,EXC003,OP1002,Excavator,1372.0,4.1,6,14,Fastened,No,Trenching,Hard Clay,27,2,58
+2025-05-07 18:00:00,TRK002,OP1008,Haul Truck,1527.8,6.7,21,18,Fastened,No,Material Hauling,Hard Clay,28,3,56
+2025-05-07 20:00:00,EXC001,OP1012,Excavator,2151.6,4.9,9,10,Fastened,No,Loading,Rocky,19,12,32
+2025-05-07 20:00:00,EXC002,OP1012,Excavator,1425.5,8.1,21,30,Fastened,No,Trenching,Hard Clay,31,12,66
+2025-05-07 20:00:00,BKH001,OP1008,Backhoe,1730.1,15.8,21,78,Fastened,Yes,Material Hauling,Gravel,35,3,52
+2025-05-07 20:00:00,TRK001,OP1003,Haul Truck,1376.0,11.7,19,35,Fastened,No,Site Grading,Gravel,26,1,63
+2025-05-07 20:00:00,WLD001,OP1001,Wheel Loader,1546.8,10.1,18,37,Fastened,No,Excavation,Soft Mud,27,11,61
+2025-05-07 20:00:00,CRN001,OP1009,Crane,1804.4,9.6,11,79,Fastened,Yes,Material Hauling,Rocky,17,12,43
+2025-05-07 20:00:00,EXC003,OP1006,Excavator,1373.3,5.3,15,20,Fastened,No,Excavation,Rocky,37,4,59
+2025-05-07 20:00:00,TRK002,OP1010,Haul Truck,1529.4,3.6,2,5,Fastened,No,Trenching,Hard Clay,18,2,57
+2025-05-07 22:00:00,EXC001,OP1003,Excavator,2153.0,6.3,12,22,Unfastened,Yes,Trenching,Soft Mud,15,1,71
+2025-05-07 22:00:00,EXC002,OP1002,Excavator,1427.0,6.9,17,15,Fastened,No,Site Grading,Rocky,16,2,69
+2025-05-07 22:00:00,BKH001,OP1011,Backhoe,1731.8,2.9,3,5,Fastened,No,Material Hauling,Paved,15,11,31
+2025-05-07 22:00:00,TRK001,OP1003,Haul Truck,1377.9,9.4,25,19,Fastened,No,Excavation,Paved,37,1,66
+2025-05-07 22:00:00,WLD001,OP1002,Wheel Loader,1548.4,6.0,3,38,Fastened,No,Excavation,Paved,36,2,50
+2025-05-07 22:00:00,CRN001,OP1005,Crane,1806.2,8.1,19,28,Fastened,No,Trenching,Rocky,17,5,74
+2025-05-07 22:00:00,EXC003,OP1004,Excavator,1374.8,9.6,25,20,Fastened,No,Site Grading,Gravel,21,12,69
+2025-05-07 22:00:00,TRK002,OP1006,Haul Truck,1531.0,8.3,23,24,Fastened,No,Excavation,Rocky,15,4,65
+2025-05-08 00:00:00,EXC001,OP1001,Excavator,2155.0,5.5,3,38,Fastened,No,Material Hauling,Rocky,17,11,30
+2025-05-08 00:00:00,EXC002,OP1010,Excavator,1428.1,9.5,20,32,Fastened,No,Material Hauling,Gravel,17,2,52
+2025-05-08 00:00:00,BKH001,OP1007,Backhoe,1733.5,5.7,10,17,Fastened,No,Trenching,Rocky,29,4,59
+2025-05-08 00:00:00,TRK001,OP1003,Haul Truck,1379.3,8.3,19,18,Fastened,No,Trenching,Gravel,18,1,68
+2025-05-08 00:00:00,WLD001,OP1003,Wheel Loader,1550.2,5.5,8,25,Unfastened,Yes,Trenching,Paved,16,1,64
+2025-05-08 00:00:00,CRN001,OP1009,Crane,1807.2,4.4,2,33,Fastened,No,Trenching,Rocky,20,12,49
+2025-05-08 00:00:00,EXC003,OP1003,Excavator,1375.9,7.0,8,28,Fastened,No,Excavation,Hard Clay,19,1,57
+2025-05-08 00:00:00,TRK002,OP1005,Haul Truck,1532.9,5.7,8,33,Fastened,No,Excavation,Soft Mud,17,5,51
+2025-05-08 16:00:00,EXC001,OP1002,Excavator,2156.0,9.2,20,30,Fastened,No,Loading,Soft Mud,20,2,47
+2025-05-08 16:00:00,EXC002,OP1004,Excavator,1430.0,12.9,6,69,Unfastened,Yes,Trenching,Rocky,29,12,58
+2025-05-08 16:00:00,BKH001,OP1007,Backhoe,1735.4,6.7,10,31,Fastened,No,Loading,Soft Mud,17,4,43
+2025-05-08 16:00:00,TRK001,OP1009,Haul Truck,1381.1,10.6,19,27,Fastened,No,Loading,Rocky,30,12,38
+2025-05-08 16:00:00,WLD001,OP1001,Wheel Loader,1551.5,5.2,3,35,Unfastened,Yes,Material Hauling,Soft Mud,23,11,31
+2025-05-08 16:00:00,CRN001,OP1002,Crane,1808.5,9.8,25,80,Fastened,Yes,Material Hauling,Rocky,32,2,57
+2025-05-08 16:00:00,EXC003,OP1006,Excavator,1377.9,10.1,20,27,Fastened,No,Material Hauling,Hard Clay,22,4,55
+2025-05-08 16:00:00,TRK002,OP1010,Haul Truck,1534.1,4.2,11,7,Fastened,No,Material Hauling,Gravel,32,2,48
+2025-05-08 18:00:00,EXC001,OP1008,Excavator,2157.0,5.1,12,25,Fastened,No,Site Grading,Hard Clay,19,3,57
+2025-05-08 18:00:00,EXC002,OP1002,Excavator,1431.9,10.8,24,30,Fastened,No,Trenching,Soft Mud,26,2,72
+2025-05-08 18:00:00,BKH001,OP1012,Backhoe,1737.3,9.4,24,27,Fastened,No,Loading,Rocky,20,12,44
+2025-05-08 18:00:00,TRK001,OP1012,Haul Truck,1382.8,4.8,2,30,Fastened,No,Material Hauling,Hard Clay,38,12,30
+2025-05-08 18:00:00,WLD001,OP1010,Wheel Loader,1552.8,8.9,20,36,Fastened,No,Site Grading,Hard Clay,35,2,67
+2025-05-08 18:00:00,CRN001,OP1003,Crane,1810.1,3.4,2,20,Fastened,No,Excavation,Rocky,29,1,43
+2025-05-08 18:00:00,EXC003,OP1001,Excavator,1379.2,7.8,17,27,Fastened,No,Loading,Hard Clay,28,11,44
+2025-05-08 18:00:00,TRK002,OP1011,Haul Truck,1535.8,3.0,4,7,Unfastened,Yes,Material Hauling,Hard Clay,29,11,31
+2025-05-08 20:00:00,EXC001,OP1006,Excavator,2158.2,4.5,4,10,Fastened,No,Loading,Hard Clay,38,4,28
+2025-05-08 20:00:00,EXC002,OP1007,Excavator,1433.8,9.6,7,60,Unfastened,Yes,Material Hauling,Paved,28,4,44
+2025-05-08 20:00:00,BKH001,OP1012,Backhoe,1739.3,5.0,11,11,Fastened,No,Site Grading,Rocky,36,12,52
+2025-05-08 20:00:00,TRK001,OP1001,Haul Truck,1384.2,8.3,23,35,Fastened,No,Loading,Soft Mud,24,11,44
+2025-05-08 20:00:00,WLD001,OP1002,Wheel Loader,1554.3,6.8,17,21,Fastened,No,Excavation,Rocky,27,2,61
+2025-05-08 20:00:00,CRN001,OP1006,Crane,1811.3,7.4,16,22,Fastened,No,Excavation,Rocky,29,4,54
+2025-05-08 20:00:00,EXC003,OP1002,Excavator,1380.9,6.6,9,29,Fastened,No,Site Grading,Gravel,33,2,60
+2025-05-08 20:00:00,TRK002,OP1010,Haul Truck,1537.7,7.4,14,7,Fastened,No,Loading,Rocky,17,2,47
+2025-05-08 22:00:00,EXC001,OP1010,Excavator,2159.3,3.5,8,13,Fastened,No,Loading,Hard Clay,20,2,35
+2025-05-08 22:00:00,EXC002,OP1011,Excavator,1435.0,8.0,25,9,Fastened,No,Site Grading,Rocky,25,11,66
+2025-05-08 22:00:00,BKH001,OP1009,Backhoe,1740.7,7.0,18,12,Fastened,No,Excavation,Paved,33,12,51
+2025-05-08 22:00:00,TRK001,OP1002,Haul Truck,1385.7,6.6,13,21,Fastened,No,Excavation,Rocky,32,2,51
+2025-05-08 22:00:00,WLD001,OP1003,Wheel Loader,1555.6,9.5,23,7,Fastened,No,Material Hauling,Paved,34,1,50
+2025-05-08 22:00:00,CRN001,OP1012,Crane,1812.8,7.0,12,24,Fastened,No,Trenching,Rocky,15,12,66
+2025-05-08 22:00:00,EXC003,OP1002,Excavator,1382.9,9.4,25,25,Fastened,No,Material Hauling,Hard Clay,24,2,54
+2025-05-08 22:00:00,TRK002,OP1008,Haul Truck,1538.9,7.6,13,37,Fastened,No,Loading,Gravel,31,3,42
+2025-05-09 00:00:00,EXC001,OP1003,Excavator,2161.1,4.9,7,17,Fastened,No,Site Grading,Paved,15,1,57
+2025-05-09 00:00:00,EXC002,OP1012,Excavator,1436.2,6.8,14,12,Fastened,No,Trenching,Gravel,31,12,64
+2025-05-09 00:00:00,BKH001,OP1003,Backhoe,1742.7,8.0,13,21,Fastened,No,Loading,Paved,32,1,43
+2025-05-09 00:00:00,TRK001,OP1001,Haul Truck,1386.9,8.3,22,18,Fastened,No,Site Grading,Hard Clay,22,11,69
+2025-05-09 00:00:00,WLD001,OP1001,Wheel Loader,1557.0,4.3,2,24,Fastened,No,Material Hauling,Hard Clay,34,11,34
+2025-05-09 00:00:00,CRN001,OP1006,Crane,1814.2,9.8,23,30,Unfastened,Yes,Material Hauling,Gravel,24,4,53
+2025-05-09 00:00:00,EXC003,OP1009,Excavator,1384.5,8.1,23,9,Fastened,No,Site Grading,Rocky,24,12,63
+2025-05-09 00:00:00,TRK002,OP1005,Haul Truck,1540.6,9.5,18,8,Fastened,No,Trenching,Hard Clay,19,5,74
+2025-05-09 16:00:00,EXC001,OP1006,Excavator,2162.8,5.3,10,30,Fastened,No,Excavation,Gravel,24,4,57
+2025-05-09 16:00:00,EXC002,OP1004,Excavator,1437.5,9.2,17,27,Fastened,No,Material Hauling,Paved,35,12,48
+2025-05-09 16:00:00,BKH001,OP1003,Backhoe,1744.0,6.9,10,40,Fastened,No,Loading,Hard Clay,38,1,40
+2025-05-09 16:00:00,TRK001,OP1011,Haul Truck,1388.0,6.5,11,26,Fastened,No,Trenching,Hard Clay,38,11,56
+2025-05-09 16:00:00,WLD001,OP1008,Wheel Loader,1558.1,4.8,4,17,Fastened,No,Site Grading,Paved,34,3,53
+2025-05-09 16:00:00,CRN001,OP1007,Crane,1815.3,7.2,12,34,Fastened,No,Material Hauling,Hard Clay,21,4,41
+2025-05-09 16:00:00,EXC003,OP1008,Excavator,1385.9,9.7,3,58,Fastened,Yes,Material Hauling,Rocky,35,3,42
+2025-05-09 16:00:00,TRK002,OP1003,Haul Truck,1542.1,7.7,15,30,Fastened,No,Excavation,Hard Clay,34,1,62
+2025-05-09 18:00:00,EXC001,OP1004,Excavator,2164.5,13.0,8,50,Unfastened,Yes,Excavation,Rocky,31,12,47
+2025-05-09 18:00:00,EXC002,OP1005,Excavator,1438.6,4.8,11,7,Fastened,No,Loading,Paved,33,5,42
+2025-05-09 18:00:00,BKH001,OP1009,Backhoe,1745.3,8.7,13,15,Fastened,No,Material Hauling,Rocky,30,12,39
+2025-05-09 18:00:00,TRK001,OP1004,Haul Truck,1389.7,3.6,2,15,Fastened,No,Material Hauling,Hard Clay,38,12,34
+2025-05-09 18:00:00,WLD001,OP1011,Wheel Loader,1559.4,8.5,21,11,Fastened,No,Site Grading,Paved,16,11,64
+2025-05-09 18:00:00,CRN001,OP1008,Crane,1816.7,8.8,24,5,Fastened,No,Site Grading,Rocky,30,3,69
+2025-05-09 18:00:00,EXC003,OP1010,Excavator,1387.5,7.8,18,12,Fastened,No,Material Hauling,Gravel,18,2,54
+2025-05-09 18:00:00,TRK002,OP1004,Haul Truck,1543.8,7.7,24,15,Fastened,No,Site Grading,Hard Clay,26,12,67
+2025-05-09 20:00:00,EXC001,OP1006,Excavator,2165.7,11.1,20,14,Fastened,No,Excavation,Soft Mud,18,4,57
+2025-05-09 20:00:00,EXC002,OP1005,Excavator,1440.3,9.4,16,76,Unfastened,Yes,Loading,Rocky,23,5,41
+2025-05-09 20:00:00,BKH001,OP1006,Backhoe,1747.1,2.6,5,7,Fastened,No,Trenching,Gravel,38,4,59
+2025-05-09 20:00:00,TRK001,OP1006,Haul Truck,1391.6,4.0,4,26,Unfastened,Yes,Site Grading,Rocky,38,4,52
+2025-05-09 20:00:00,WLD001,OP1007,Wheel Loader,1561.0,5.9,7,8,Fastened,No,Loading,Gravel,35,4,40
+2025-05-09 20:00:00,CRN001,OP1008,Crane,1818.5,8.3,14,6,Fastened,No,Loading,Hard Clay,34,3,39
+2025-05-09 20:00:00,EXC003,OP1008,Excavator,1389.4,10.5,3,70,Fastened,Yes,Excavation,Gravel,29,3,53
+2025-05-09 20:00:00,TRK002,OP1009,Haul Truck,1545.6,11.3,23,38,Fastened,No,Site Grading,Paved,22,12,69
+2025-05-09 22:00:00,EXC001,OP1012,Excavator,2167.0,7.1,19,8,Fastened,No,Trenching,Gravel,19,12,68
+2025-05-09 22:00:00,EXC002,OP1008,Excavator,1442.1,4.4,9,22,Fastened,No,Excavation,Gravel,25,3,54
+2025-05-09 22:00:00,BKH001,OP1004,Backhoe,1748.2,5.7,4,33,Fastened,No,Loading,Paved,29,12,24
+2025-05-09 22:00:00,TRK001,OP1002,Haul Truck,1393.0,4.1,2,24,Fastened,No,Excavation,Paved,32,2,50
+2025-05-09 22:00:00,WLD001,OP1006,Wheel Loader,1562.4,7.6,12,35,Fastened,No,Excavation,Hard Clay,29,4,51
+2025-05-09 22:00:00,CRN001,OP1011,Crane,1819.7,6.2,11,28,Fastened,No,Trenching,Rocky,35,11,57
+2025-05-09 22:00:00,EXC003,OP1012,Excavator,1391.1,10.5,21,12,Fastened,No,Loading,Soft Mud,23,12,41
+2025-05-09 22:00:00,TRK002,OP1012,Haul Truck,1547.0,10.5,23,33,Fastened,No,Loading,Soft Mud,35,12,46
+2025-05-10 00:00:00,EXC001,OP1001,Excavator,2168.5,11.8,20,37,Fastened,No,Excavation,Paved,28,11,55
+2025-05-10 00:00:00,EXC002,OP1012,Excavator,1444.0,9.3,21,25,Unfastened,Yes,Excavation,Gravel,36,12,56
+2025-05-10 00:00:00,BKH001,OP1005,Backhoe,1749.6,5.8,6,37,Fastened,No,Trenching,Rocky,29,5,62
+2025-05-10 00:00:00,TRK001,OP1011,Haul Truck,1394.2,7.3,11,13,Unfastened,Yes,Material Hauling,Paved,37,11,43
+2025-05-10 00:00:00,WLD001,OP1009,Wheel Loader,1564.1,10.7,19,31,Fastened,No,Trenching,Soft Mud,26,12,67
+2025-05-10 00:00:00,CRN001,OP1001,Crane,1821.2,4.2,3,17,Unfastened,Yes,Excavation,Gravel,19,11,49
+2025-05-10 00:00:00,EXC003,OP1005,Excavator,1392.3,11.6,19,76,Unfastened,Yes,Excavation,Rocky,21,5,65
+2025-05-10 00:00:00,TRK002,OP1012,Haul Truck,1548.5,5.3,9,23,Fastened,No,Material Hauling,Paved,27,12,39
+2025-05-10 16:00:00,EXC001,OP1011,Excavator,2169.8,13.6,25,33,Fastened,No,Site Grading,Soft Mud,15,11,72
+2025-05-10 16:00:00,EXC002,OP1006,Excavator,1445.7,11.4,25,23,Fastened,No,Site Grading,Paved,21,4,67
+2025-05-10 16:00:00,BKH001,OP1012,Backhoe,1751.1,5.7,10,13,Fastened,No,Loading,Soft Mud,28,12,36
+2025-05-10 16:00:00,TRK001,OP1012,Haul Truck,1396.2,13.0,21,79,Fastened,Yes,Excavation,Hard Clay,25,12,57
+2025-05-10 16:00:00,WLD001,OP1008,Wheel Loader,1565.9,12.4,24,19,Fastened,No,Site Grading,Rocky,17,3,67
+2025-05-10 16:00:00,CRN001,OP1007,Crane,1822.8,5.3,9,26,Unfastened,Yes,Loading,Soft Mud,26,4,41
+2025-05-10 16:00:00,EXC003,OP1009,Excavator,1393.8,12.0,23,20,Fastened,No,Site Grading,Soft Mud,18,12,59
+2025-05-10 16:00:00,TRK002,OP1011,Haul Truck,1550.4,5.2,10,23,Fastened,No,Loading,Soft Mud,27,11,38
+2025-05-10 18:00:00,EXC001,OP1009,Excavator,2171.3,5.0,8,10,Unfastened,Yes,Excavation,Rocky,35,12,50
+2025-05-10 18:00:00,EXC002,OP1009,Excavator,1446.7,11.1,22,32,Fastened,No,Excavation,Hard Clay,36,12,60
+2025-05-10 18:00:00,BKH001,OP1011,Backhoe,1752.9,4.9,16,7,Fastened,No,Excavation,Hard Clay,15,11,57
+2025-05-10 18:00:00,TRK001,OP1002,Haul Truck,1397.8,6.5,14,30,Fastened,No,Material Hauling,Rocky,28,2,50
+2025-05-10 18:00:00,WLD001,OP1001,Wheel Loader,1567.5,8.6,20,77,Fastened,Yes,Site Grading,Soft Mud,38,11,59
+2025-05-10 18:00:00,CRN001,OP1005,Crane,1824.5,7.3,11,33,Fastened,No,Trenching,Paved,17,5,60
+2025-05-10 18:00:00,EXC003,OP1009,Excavator,1395.0,11.0,22,28,Fastened,No,Loading,Paved,24,12,41
+2025-05-10 18:00:00,TRK002,OP1002,Haul Truck,1551.4,8.0,19,10,Fastened,No,Site Grading,Paved,27,2,66
+2025-05-10 20:00:00,EXC001,OP1004,Excavator,2172.7,4.1,7,21,Fastened,No,Site Grading,Hard Clay,20,12,47
+2025-05-10 20:00:00,EXC002,OP1009,Excavator,1448.2,9.6,23,53,Unfastened,Yes,Site Grading,Soft Mud,24,12,64
+2025-05-10 20:00:00,BKH001,OP1006,Backhoe,1754.0,10.5,21,56,Unfastened,Yes,Material Hauling,Soft Mud,24,4,56
+2025-05-10 20:00:00,TRK001,OP1011,Haul Truck,1399.1,10.4,20,25,Fastened,No,Site Grading,Hard Clay,33,11,61
+2025-05-10 20:00:00,WLD001,OP1012,Wheel Loader,1569.3,5.5,6,26,Fastened,No,Loading,Rocky,26,12,30
+2025-05-10 20:00:00,CRN001,OP1008,Crane,1826.1,5.8,10,13,Fastened,No,Material Hauling,Paved,17,3,49
+2025-05-10 20:00:00,EXC003,OP1002,Excavator,1396.7,3.6,2,30,Fastened,No,Excavation,Paved,35,2,47
+2025-05-10 20:00:00,TRK002,OP1009,Haul Truck,1553.3,5.4,6,19,Fastened,No,Site Grading,Gravel,35,12,48
+2025-05-10 22:00:00,EXC001,OP1008,Excavator,2174.2,14.8,18,57,Fastened,Yes,Excavation,Gravel,26,3,64
+2025-05-10 22:00:00,EXC002,OP1011,Excavator,1449.3,5.1,7,14,Fastened,No,Site Grading,Hard Clay,29,11,50
+2025-05-10 22:00:00,BKH001,OP1008,Backhoe,1755.3,4.8,3,38,Fastened,No,Trenching,Rocky,22,3,60
+2025-05-10 22:00:00,TRK001,OP1001,Haul Truck,1400.1,9.2,18,22,Fastened,No,Trenching,Soft Mud,37,11,63
+2025-05-10 22:00:00,WLD001,OP1007,Wheel Loader,1570.9,4.5,4,29,Fastened,No,Trenching,Paved,35,4,58
+2025-05-10 22:00:00,CRN001,OP1008,Crane,1827.9,4.5,6,19,Fastened,No,Site Grading,Soft Mud,31,3,52
+2025-05-10 22:00:00,EXC003,OP1003,Excavator,1398.1,7.7,12,35,Fastened,No,Excavation,Hard Clay,28,1,61
+2025-05-10 22:00:00,TRK002,OP1007,Haul Truck,1554.4,8.2,20,37,Fastened,No,Excavation,Hard Clay,33,4,60
+2025-05-11 00:00:00,EXC001,OP1003,Excavator,2175.7,13.8,22,73,Fastened,Yes,Loading,Paved,33,1,45
+2025-05-11 00:00:00,EXC002,OP1004,Excavator,1450.8,6.6,9,14,Fastened,No,Loading,Gravel,20,12,38
+2025-05-11 00:00:00,BKH001,OP1009,Backhoe,1756.5,11.1,20,62,Unfastened,Yes,Trenching,Gravel,34,12,65
+2025-05-11 00:00:00,TRK001,OP1009,Haul Truck,1402.0,11.9,21,35,Fastened,No,Site Grading,Gravel,19,12,66
+2025-05-11 00:00:00,WLD001,OP1009,Wheel Loader,1572.7,6.9,6,39,Fastened,No,Excavation,Gravel,36,12,51
+2025-05-11 00:00:00,CRN001,OP1007,Crane,1829.4,10.0,18,35,Fastened,No,Trenching,Soft Mud,37,4,73
+2025-05-11 00:00:00,EXC003,OP1002,Excavator,1399.5,4.5,4,39,Fastened,No,Trenching,Gravel,22,2,54
+2025-05-11 00:00:00,TRK002,OP1010,Haul Truck,1555.9,8.7,22,25,Fastened,No,Site Grading,Soft Mud,27,2,73
+2025-05-11 16:00:00,EXC001,OP1005,Excavator,2177.0,7.9,13,30,Fastened,No,Site Grading,Gravel,33,5,62
+2025-05-11 16:00:00,EXC002,OP1003,Excavator,1452.2,8.0,11,30,Fastened,No,Site Grading,Gravel,23,1,58
+2025-05-11 16:00:00,BKH001,OP1008,Backhoe,1758.3,10.0,18,26,Fastened,No,Material Hauling,Soft Mud,21,3,45
+2025-05-11 16:00:00,TRK001,OP1003,Haul Truck,1403.3,6.8,17,32,Fastened,No,Excavation,Soft Mud,19,1,64
+2025-05-11 16:00:00,WLD001,OP1001,Wheel Loader,1574.4,10.0,18,8,Fastened,No,Loading,Paved,35,11,43
+2025-05-11 16:00:00,CRN001,OP1001,Crane,1830.6,4.2,3,37,Fastened,No,Site Grading,Rocky,21,11,44
+2025-05-11 16:00:00,EXC003,OP1006,Excavator,1400.7,6.5,10,27,Fastened,No,Excavation,Hard Clay,17,4,48
+2025-05-11 16:00:00,TRK002,OP1012,Haul Truck,1557.6,10.7,25,27,Fastened,No,Excavation,Paved,24,12,59
+2025-05-11 18:00:00,EXC001,OP1008,Excavator,2178.9,4.7,7,11,Fastened,No,Site Grading,Soft Mud,23,3,52
+2025-05-11 18:00:00,EXC002,OP1009,Excavator,1454.1,11.5,24,29,Fastened,No,Site Grading,Paved,23,12,67
+2025-05-11 18:00:00,BKH001,OP1011,Backhoe,1759.8,6.1,5,29,Fastened,No,Site Grading,Soft Mud,30,11,49
+2025-05-11 18:00:00,TRK001,OP1006,Haul Truck,1404.8,2.7,2,21,Fastened,No,Trenching,Paved,32,4,57
+2025-05-11 18:00:00,WLD001,OP1002,Wheel Loader,1576.0,6.7,13,22,Unfastened,Yes,Material Hauling,Gravel,25,2,44
+2025-05-11 18:00:00,CRN001,OP1008,Crane,1832.3,5.7,8,20,Fastened,No,Material Hauling,Hard Clay,23,3,38
+2025-05-11 18:00:00,EXC003,OP1002,Excavator,1402.4,8.6,19,35,Fastened,No,Loading,Paved,15,2,50
+2025-05-11 18:00:00,TRK002,OP1005,Haul Truck,1559.1,5.1,9,13,Fastened,No,Site Grading,Rocky,27,5,60
+2025-05-11 20:00:00,EXC001,OP1001,Excavator,2180.4,4.0,5,34,Fastened,No,Loading,Hard Clay,29,11,32
+2025-05-11 20:00:00,EXC002,OP1010,Excavator,1455.2,5.7,7,20,Fastened,No,Trenching,Paved,23,2,59
+2025-05-11 20:00:00,BKH001,OP1008,Backhoe,1761.2,8.2,14,16,Fastened,No,Loading,Rocky,26,3,38
+2025-05-11 20:00:00,TRK001,OP1012,Haul Truck,1406.0,5.8,14,14,Fastened,No,Material Hauling,Paved,28,12,39
+2025-05-11 20:00:00,WLD001,OP1011,Wheel Loader,1577.5,5.6,10,8,Fastened,No,Trenching,Gravel,24,11,59
+2025-05-11 20:00:00,CRN001,OP1008,Crane,1834.2,8.0,12,28,Fastened,No,Excavation,Gravel,38,3,50
+2025-05-11 20:00:00,EXC003,OP1007,Excavator,1403.5,9.2,20,39,Fastened,No,Site Grading,Hard Clay,33,4,71
+2025-05-11 20:00:00,TRK002,OP1009,Haul Truck,1560.6,10.8,21,14,Unfastened,Yes,Loading,Soft Mud,27,12,44
+2025-05-11 22:00:00,EXC001,OP1011,Excavator,2182.0,4.7,7,25,Fastened,No,Loading,Soft Mud,17,11,37
+2025-05-11 22:00:00,EXC002,OP1007,Excavator,1456.5,8.7,20,33,Fastened,No,Loading,Rocky,38,4,44
+2025-05-11 22:00:00,BKH001,OP1011,Backhoe,1762.5,7.8,14,9,Fastened,No,Excavation,Hard Clay,20,11,54
+2025-05-11 22:00:00,TRK001,OP1009,Haul Truck,1407.8,8.4,21,29,Fastened,No,Excavation,Soft Mud,23,12,63
+2025-05-11 22:00:00,WLD001,OP1003,Wheel Loader,1578.6,11.8,23,25,Fastened,No,Material Hauling,Soft Mud,16,1,54
+2025-05-11 22:00:00,CRN001,OP1009,Crane,1835.6,10.3,21,32,Fastened,No,Site Grading,Hard Clay,33,12,63
+2025-05-11 22:00:00,EXC003,OP1008,Excavator,1405.1,5.1,13,14,Fastened,No,Excavation,Gravel,24,3,53
+2025-05-11 22:00:00,TRK002,OP1006,Haul Truck,1561.9,8.7,17,35,Fastened,No,Site Grading,Soft Mud,37,4,68
+2025-05-12 00:00:00,EXC001,OP1004,Excavator,2183.8,7.1,15,32,Fastened,No,Site Grading,Rocky,21,12,59
+2025-05-12 00:00:00,EXC002,OP1007,Excavator,1457.7,5.9,9,22,Fastened,No,Excavation,Gravel,35,4,53
+2025-05-12 00:00:00,BKH001,OP1004,Backhoe,1764.3,5.2,5,33,Fastened,No,Material Hauling,Hard Clay,24,12,30
+2025-05-12 00:00:00,TRK001,OP1003,Haul Truck,1408.8,4.8,5,13,Fastened,No,Site Grading,Soft Mud,20,1,53
+2025-05-12 00:00:00,WLD001,OP1001,Wheel Loader,1580.1,8.5,17,34,Fastened,No,Trenching,Gravel,24,11,62
+2025-05-12 00:00:00,CRN001,OP1001,Crane,1836.9,9.9,17,21,Fastened,No,Loading,Soft Mud,32,11,38
+2025-05-12 00:00:00,EXC003,OP1007,Excavator,1406.8,4.4,3,11,Fastened,No,Loading,Hard Clay,38,4,37
+2025-05-12 00:00:00,TRK002,OP1005,Haul Truck,1563.8,8.3,19,21,Fastened,No,Material Hauling,Soft Mud,38,5,45
+2025-05-12 16:00:00,EXC001,OP1011,Excavator,2185.0,8.3,15,15,Fastened,No,Excavation,Hard Clay,35,11,52
+2025-05-12 16:00:00,EXC002,OP1001,Excavator,1459.7,7.7,21,10,Fastened,No,Site Grading,Gravel,37,11,63
+2025-05-12 16:00:00,BKH001,OP1011,Backhoe,1765.4,7.9,19,13,Fastened,No,Trenching,Hard Clay,37,11,72
+2025-05-12 16:00:00,TRK001,OP1006,Haul Truck,1410.6,7.7,24,13,Fastened,No,Loading,Hard Clay,15,4,52
+2025-05-12 16:00:00,WLD001,OP1005,Wheel Loader,1581.6,5.2,7,25,Fastened,No,Loading,Hard Clay,33,5,38
+2025-05-12 16:00:00,CRN001,OP1003,Crane,1838.0,6.0,10,34,Fastened,No,Material Hauling,Gravel,24,1,42
+2025-05-12 16:00:00,EXC003,OP1001,Excavator,1408.5,7.7,12,39,Fastened,No,Trenching,Paved,22,11,64
+2025-05-12 16:00:00,TRK002,OP1003,Haul Truck,1565.4,7.0,12,38,Unfastened,Yes,Trenching,Gravel,35,1,63
+2025-05-12 18:00:00,EXC001,OP1001,Excavator,2186.2,4.5,3,29,Fastened,No,Loading,Hard Clay,18,11,28
+2025-05-12 18:00:00,EXC002,OP1001,Excavator,1461.0,5.1,8,10,Fastened,No,Site Grading,Soft Mud,15,11,54
+2025-05-12 18:00:00,BKH001,OP1006,Backhoe,1767.2,14.7,18,52,Unfastened,Yes,Excavation,Paved,23,4,57
+2025-05-12 18:00:00,TRK001,OP1009,Haul Truck,1411.7,6.4,8,20,Fastened,No,Material Hauling,Paved,27,12,40
+2025-05-12 18:00:00,WLD001,OP1007,Wheel Loader,1583.4,9.0,16,32,Fastened,No,Site Grading,Rocky,36,4,64
+2025-05-12 18:00:00,CRN001,OP1009,Crane,1839.3,9.2,16,25,Fastened,No,Material Hauling,Paved,34,12,45
+2025-05-12 18:00:00,EXC003,OP1011,Excavator,1409.9,11.4,20,29,Fastened,No,Trenching,Paved,22,11,70
+2025-05-12 18:00:00,TRK002,OP1008,Haul Truck,1567.4,15.9,21,54,Unfastened,Yes,Excavation,Soft Mud,24,3,61
+2025-05-12 20:00:00,EXC001,OP1004,Excavator,2187.4,7.8,10,37,Fastened,No,Trenching,Soft Mud,37,12,54
+2025-05-12 20:00:00,EXC002,OP1008,Excavator,1462.4,9.5,20,21,Fastened,No,Material Hauling,Rocky,26,3,50
+2025-05-12 20:00:00,BKH001,OP1012,Backhoe,1768.2,7.6,17,11,Fastened,No,Trenching,Gravel,20,12,69
+2025-05-12 20:00:00,TRK001,OP1007,Haul Truck,1412.8,7.7,15,12,Fastened,No,Excavation,Rocky,26,4,61
+2025-05-12 20:00:00,WLD001,OP1001,Wheel Loader,1585.0,12.5,18,67,Unfastened,Yes,Loading,Soft Mud,24,11,39
+2025-05-12 20:00:00,CRN001,OP1003,Crane,1840.4,9.3,20,19,Fastened,No,Loading,Gravel,34,1,48
+2025-05-12 20:00:00,EXC003,OP1002,Excavator,1411.4,7.1,10,37,Fastened,No,Excavation,Paved,27,2,56
+2025-05-12 20:00:00,TRK002,OP1009,Haul Truck,1568.6,7.8,19,38,Fastened,No,Loading,Paved,21,12,41
+2025-05-12 22:00:00,EXC001,OP1011,Excavator,2189.4,6.6,15,27,Fastened,No,Excavation,Soft Mud,36,11,53
+2025-05-12 22:00:00,EXC002,OP1003,Excavator,1464.4,4.1,6,19,Fastened,No,Site Grading,Gravel,34,1,52
+2025-05-12 22:00:00,BKH001,OP1002,Backhoe,1770.0,14.4,11,72,Unfastened,Yes,Material Hauling,Paved,19,2,47
+2025-05-12 22:00:00,TRK001,OP1001,Haul Truck,1414.2,9.2,19,21,Unfastened,Yes,Site Grading,Hard Clay,21,11,67
+2025-05-12 22:00:00,WLD001,OP1001,Wheel Loader,1586.4,14.3,7,56,Unfastened,Yes,Site Grading,Soft Mud,23,11,47
+2025-05-12 22:00:00,CRN001,OP1008,Crane,1842.0,11.0,23,28,Fastened,No,Excavation,Soft Mud,27,3,69
+2025-05-12 22:00:00,EXC003,OP1007,Excavator,1412.6,5.7,5,36,Fastened,No,Loading,Paved,37,4,37
+2025-05-12 22:00:00,TRK002,OP1008,Haul Truck,1570.1,8.1,18,36,Fastened,No,Excavation,Soft Mud,22,3,60
+2025-05-13 00:00:00,EXC001,OP1006,Excavator,2191.0,5.2,3,29,Fastened,No,Material Hauling,Paved,23,4,40
+2025-05-13 00:00:00,EXC002,OP1005,Excavator,1465.6,5.6,6,29,Fastened,No,Trenching,Gravel,36,5,64
+2025-05-13 00:00:00,BKH001,OP1004,Backhoe,1771.4,5.8,11,26,Fastened,No,Site Grading,Hard Clay,28,12,59
+2025-05-13 00:00:00,TRK001,OP1009,Haul Truck,1415.8,12.9,24,38,Fastened,No,Material Hauling,Hard Clay,24,12,47
+2025-05-13 00:00:00,WLD001,OP1011,Wheel Loader,1588.3,7.8,19,12,Fastened,No,Material Hauling,Rocky,17,11,42
+2025-05-13 00:00:00,CRN001,OP1006,Crane,1843.9,6.2,16,22,Fastened,No,Loading,Gravel,24,4,38
+2025-05-13 00:00:00,EXC003,OP1010,Excavator,1414.2,5.7,9,19,Fastened,No,Site Grading,Paved,34,2,60
+2025-05-13 00:00:00,TRK002,OP1003,Haul Truck,1571.6,9.3,22,29,Fastened,No,Site Grading,Gravel,37,1,64
+2025-05-13 16:00:00,EXC001,OP1007,Excavator,2192.8,5.1,9,17,Unfastened,Yes,Excavation,Rocky,28,4,54
+2025-05-13 16:00:00,EXC002,OP1010,Excavator,1467.1,7.8,15,7,Fastened,No,Trenching,Gravel,22,2,69
+2025-05-13 16:00:00,BKH001,OP1010,Backhoe,1773.3,7.7,18,7,Fastened,No,Site Grading,Paved,32,2,60
+2025-05-13 16:00:00,TRK001,OP1004,Haul Truck,1417.4,5.6,14,8,Fastened,No,Loading,Soft Mud,32,12,36
+2025-05-13 16:00:00,WLD001,OP1008,Wheel Loader,1589.5,10.0,24,14,Fastened,No,Trenching,Paved,16,3,78
+2025-05-13 16:00:00,CRN001,OP1002,Crane,1845.1,6.4,14,33,Fastened,No,Site Grading,Paved,19,2,60
+2025-05-13 16:00:00,EXC003,OP1008,Excavator,1415.3,11.4,25,12,Fastened,No,Trenching,Hard Clay,37,3,77
+2025-05-13 16:00:00,TRK002,OP1012,Haul Truck,1573.4,8.1,14,7,Fastened,No,Site Grading,Paved,20,12,62
+2025-05-13 18:00:00,EXC001,OP1003,Excavator,2193.9,5.2,3,24,Fastened,No,Material Hauling,Hard Clay,37,1,36
+2025-05-13 18:00:00,EXC002,OP1002,Excavator,1469.0,14.8,10,65,Unfastened,Yes,Material Hauling,Soft Mud,34,2,39
+2025-05-13 18:00:00,BKH001,OP1010,Backhoe,1775.2,10.4,23,31,Fastened,No,Material Hauling,Hard Clay,33,2,57
+2025-05-13 18:00:00,TRK001,OP1005,Haul Truck,1419.0,5.5,7,27,Fastened,No,Site Grading,Hard Clay,16,5,59
+2025-05-13 18:00:00,WLD001,OP1005,Wheel Loader,1590.8,8.0,15,15,Fastened,No,Excavation,Soft Mud,18,5,61
+2025-05-13 18:00:00,CRN001,OP1010,Crane,1846.9,6.3,20,7,Fastened,No,Material Hauling,Gravel,38,2,53
+2025-05-13 18:00:00,EXC003,OP1002,Excavator,1417.1,7.4,17,22,Fastened,No,Site Grading,Soft Mud,24,2,63
+2025-05-13 18:00:00,TRK002,OP1010,Haul Truck,1574.5,8.7,17,23,Fastened,No,Site Grading,Paved,17,2,69
+2025-05-13 20:00:00,EXC001,OP1010,Excavator,2195.3,8.2,17,36,Fastened,No,Material Hauling,Paved,33,2,49
+2025-05-13 20:00:00,EXC002,OP1004,Excavator,1470.0,5.7,5,18,Fastened,No,Excavation,Gravel,35,12,45
+2025-05-13 20:00:00,BKH001,OP1006,Backhoe,1776.8,5.5,8,21,Fastened,No,Material Hauling,Soft Mud,35,4,41
+2025-05-13 20:00:00,TRK001,OP1001,Haul Truck,1420.1,10.8,25,6,Fastened,No,Trenching,Rocky,27,11,77
+2025-05-13 20:00:00,WLD001,OP1008,Wheel Loader,1592.8,6.2,6,39,Fastened,No,Excavation,Hard Clay,30,3,45
+2025-05-13 20:00:00,CRN001,OP1009,Crane,1848.2,4.8,2,26,Fastened,No,Trenching,Paved,32,12,50
+2025-05-13 20:00:00,EXC003,OP1005,Excavator,1418.9,7.2,19,29,Fastened,No,Trenching,Gravel,35,5,69
+2025-05-13 20:00:00,TRK002,OP1012,Haul Truck,1576.3,4.8,4,20,Fastened,No,Excavation,Rocky,28,12,47
+2025-05-13 22:00:00,EXC001,OP1005,Excavator,2196.4,4.5,4,6,Fastened,No,Trenching,Soft Mud,21,5,58
+2025-05-13 22:00:00,EXC002,OP1008,Excavator,1471.7,5.6,6,11,Fastened,No,Site Grading,Rocky,25,3,52
+2025-05-13 22:00:00,BKH001,OP1004,Backhoe,1778.5,10.5,18,24,Fastened,No,Loading,Gravel,37,12,36
+2025-05-13 22:00:00,TRK001,OP1006,Haul Truck,1421.6,9.2,23,6,Fastened,No,Excavation,Soft Mud,31,4,63
+2025-05-13 22:00:00,WLD001,OP1004,Wheel Loader,1593.9,6.3,16,22,Fastened,No,Trenching,Paved,25,12,68
+2025-05-13 22:00:00,CRN001,OP1009,Crane,1849.7,10.7,19,14,Fastened,No,Material Hauling,Paved,26,12,43
+2025-05-13 22:00:00,EXC003,OP1002,Excavator,1420.2,4.0,3,35,Fastened,No,Trenching,Paved,29,2,54
+2025-05-13 22:00:00,TRK002,OP1007,Haul Truck,1577.7,10.3,24,27,Fastened,No,Site Grading,Paved,35,4,74
+2025-05-14 00:00:00,EXC001,OP1009,Excavator,2197.5,4.2,4,34,Fastened,No,Loading,Paved,19,12,31
+2025-05-14 00:00:00,EXC002,OP1008,Excavator,1473.0,6.7,10,30,Fastened,No,Material Hauling,Hard Clay,34,3,44
+2025-05-14 00:00:00,BKH001,OP1008,Backhoe,1780.0,5.8,13,15,Fastened,No,Excavation,Gravel,18,3,59
+2025-05-14 00:00:00,TRK001,OP1002,Haul Truck,1423.0,12.3,22,59,Unfastened,Yes,Excavation,Rocky,32,2,65
+2025-05-14 00:00:00,WLD001,OP1004,Wheel Loader,1595.6,14.5,14,56,Unfastened,Yes,Site Grading,Hard Clay,30,12,58
+2025-05-14 00:00:00,CRN001,OP1010,Crane,1851.5,9.1,23,36,Fastened,No,Site Grading,Hard Clay,20,2,65
+2025-05-14 00:00:00,EXC003,OP1008,Excavator,1421.4,5.1,5,29,Fastened,No,Loading,Soft Mud,34,3,33
+2025-05-14 00:00:00,TRK002,OP1003,Haul Truck,1579.6,5.0,6,23,Fastened,No,Excavation,Hard Clay,36,1,56
+2025-05-14 16:00:00,EXC001,OP1006,Excavator,2198.8,6.5,13,5,Fastened,No,Trenching,Gravel,37,4,64
+2025-05-14 16:00:00,EXC002,OP1001,Excavator,1474.3,8.2,24,27,Fastened,No,Site Grading,Soft Mud,15,11,67
+2025-05-14 16:00:00,BKH001,OP1012,Backhoe,1781.6,7.5,14,18,Fastened,No,Trenching,Gravel,27,12,63
+2025-05-14 16:00:00,TRK001,OP1006,Haul Truck,1424.8,3.7,6,9,Fastened,No,Material Hauling,Rocky,36,4,45
+2025-05-14 16:00:00,WLD001,OP1007,Wheel Loader,1597.5,12.4,22,34,Unfastened,Yes,Material Hauling,Soft Mud,19,4,57
+2025-05-14 16:00:00,CRN001,OP1003,Crane,1852.9,5.8,14,16,Fastened,No,Loading,Paved,29,1,41
+2025-05-14 16:00:00,EXC003,OP1012,Excavator,1422.9,12.5,13,51,Fastened,Yes,Loading,Paved,33,12,32
+2025-05-14 16:00:00,TRK002,OP1010,Haul Truck,1581.1,9.6,25,22,Fastened,No,Excavation,Hard Clay,38,2,62
+2025-05-14 18:00:00,EXC001,OP1004,Excavator,2200.3,5.7,11,26,Fastened,No,Excavation,Paved,33,12,52
+2025-05-14 18:00:00,EXC002,OP1010,Excavator,1476.1,7.1,11,24,Fastened,No,Loading,Rocky,24,2,42
+2025-05-14 18:00:00,BKH001,OP1010,Backhoe,1782.8,8.7,21,65,Unfastened,Yes,Excavation,Rocky,38,2,62
+2025-05-14 18:00:00,TRK001,OP1005,Haul Truck,1425.9,4.0,2,16,Fastened,No,Trenching,Rocky,23,5,56
+2025-05-14 18:00:00,WLD001,OP1003,Wheel Loader,1598.8,11.4,18,26,Fastened,No,Material Hauling,Gravel,20,1,48
+2025-05-14 18:00:00,CRN001,OP1008,Crane,1854.7,8.8,23,15,Fastened,No,Loading,Gravel,22,3,54
+2025-05-14 18:00:00,EXC003,OP1005,Excavator,1424.6,8.8,16,24,Unfastened,Yes,Excavation,Soft Mud,20,5,55
+2025-05-14 18:00:00,TRK002,OP1007,Haul Truck,1582.8,5.7,6,32,Fastened,No,Loading,Gravel,23,4,40
+2025-05-14 20:00:00,EXC001,OP1006,Excavator,2202.3,11.0,22,32,Fastened,No,Excavation,Soft Mud,32,4,62
+2025-05-14 20:00:00,EXC002,OP1005,Excavator,1477.9,8.7,16,20,Fastened,No,Trenching,Paved,27,5,67
+2025-05-14 20:00:00,BKH001,OP1011,Backhoe,1784.4,2.1,2,9,Fastened,No,Material Hauling,Rocky,32,11,35
+2025-05-14 20:00:00,TRK001,OP1006,Haul Truck,1427.2,8.5,3,52,Unfastened,Yes,Trenching,Rocky,21,4,55
+2025-05-14 20:00:00,WLD001,OP1010,Wheel Loader,1600.4,5.5,6,16,Fastened,No,Excavation,Soft Mud,34,2,53
+2025-05-14 20:00:00,CRN001,OP1011,Crane,1856.6,9.8,24,25,Fastened,No,Loading,Rocky,28,11,41
+2025-05-14 20:00:00,EXC003,OP1007,Excavator,1426.0,6.0,7,36,Fastened,No,Excavation,Rocky,23,4,56
+2025-05-14 20:00:00,TRK002,OP1008,Haul Truck,1583.9,10.1,21,33,Fastened,No,Site Grading,Gravel,21,3,71
+2025-05-14 22:00:00,EXC001,OP1012,Excavator,2203.5,4.9,6,5,Fastened,No,Loading,Soft Mud,30,12,31
+2025-05-14 22:00:00,EXC002,OP1007,Excavator,1479.5,6.1,15,9,Unfastened,Yes,Site Grading,Gravel,30,4,64
+2025-05-14 22:00:00,BKH001,OP1002,Backhoe,1786.0,6.2,11,10,Fastened,No,Trenching,Rocky,36,2,67
+2025-05-14 22:00:00,TRK001,OP1005,Haul Truck,1428.8,8.7,14,24,Fastened,No,Material Hauling,Paved,16,5,46
+2025-05-14 22:00:00,WLD001,OP1008,Wheel Loader,1601.5,3.0,3,20,Fastened,No,Loading,Hard Clay,19,3,32
+2025-05-14 22:00:00,CRN001,OP1008,Crane,1858.1,13.8,12,75,Unfastened,Yes,Loading,Soft Mud,16,3,38
+2025-05-14 22:00:00,EXC003,OP1011,Excavator,1427.7,6.9,25,9,Fastened,No,Loading,Paved,19,11,49
+2025-05-14 22:00:00,TRK002,OP1010,Haul Truck,1584.9,14.6,22,59,Unfastened,Yes,Material Hauling,Soft Mud,20,2,58
+2025-05-15 00:00:00,EXC001,OP1003,Excavator,2205.3,6.0,17,19,Fastened,No,Excavation,Soft Mud,18,1,65
+2025-05-15 00:00:00,EXC002,OP1007,Excavator,1480.8,7.3,12,18,Fastened,No,Site Grading,Paved,19,4,56
+2025-05-15 00:00:00,BKH001,OP1005,Backhoe,1787.2,7.0,13,33,Fastened,No,Loading,Hard Clay,37,5,45
+2025-05-15 00:00:00,TRK001,OP1010,Haul Truck,1430.2,15.4,4,55,Fastened,Yes,Material Hauling,Soft Mud,30,2,43
+2025-05-15 00:00:00,WLD001,OP1005,Wheel Loader,1602.9,5.1,6,38,Fastened,No,Loading,Hard Clay,21,5,29
+2025-05-15 00:00:00,CRN001,OP1010,Crane,1859.3,8.1,22,24,Fastened,No,Loading,Paved,17,2,45
+2025-05-15 00:00:00,EXC003,OP1009,Excavator,1429.7,6.9,18,18,Fastened,No,Site Grading,Rocky,32,12,65
+2025-05-15 00:00:00,TRK002,OP1008,Haul Truck,1586.4,8.9,22,18,Fastened,No,Material Hauling,Soft Mud,16,3,55

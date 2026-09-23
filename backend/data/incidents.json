@@ -1,0 +1,32 @@
+[
+  {
+    "id": "INC-1001",
+    "timestamp": "2025-05-01 10:00:00",
+    "machine_id": "EXC001",
+    "operator_id": "OP1001",
+    "type": "Seatbelt Violation",
+    "severity": "HIGH",
+    "description": "Operator operated machine without seatbelt fastened during excavation shift.",
+    "status": "OPEN"
+  },
+  {
+    "id": "INC-1002",
+    "timestamp": "2025-05-01 14:00:00",
+    "machine_id": "EXC001",
+    "operator_id": "OP1001",
+    "type": "Excessive Idling",
+    "severity": "MEDIUM",
+    "description": "Machine remained idle for 65 consecutive minutes with engine running.",
+    "status": "INVESTIGATING"
+  },
+  {
+    "id": "INC-1003",
+    "timestamp": "2025-05-02 08:30:00",
+    "machine_id": "TRK001",
+    "operator_id": "OP1004",
+    "type": "Hazard Proximity",
+    "severity": "LOW",
+    "description": "Approached unstable trench boundary at site B.",
+    "status": "RESOLVED"
+  }
+]
