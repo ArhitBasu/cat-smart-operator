@@ -194,7 +194,7 @@ def call_groq_llm(api_key: str, context: Dict[str, Any], message: str) -> Dict[s
         )
         prompt = f"Machine Context:\n{context}\n\nUser Question: {message}"
         payload = {
-            "model": "llama-3.3-70b-versatile",
+            "model": "openai/gpt-oss-120b",
             "messages": [{"role": "system", "content": system_prompt}, {"role": "user", "content": prompt}],
             "temperature": 0.2
         }
