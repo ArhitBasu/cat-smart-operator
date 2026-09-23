@@ -1,0 +1,47 @@
+[
+  {
+    "id": "TRN-01",
+    "title": "Seatbelt Safety & Protocols",
+    "description": "Mandatory safety compliance module covering seatbelt restraint usage, interlock mechanisms, and site injury prevention.",
+    "duration": "15 min",
+    "category": "Safety Compliance",
+    "completion_percentage": 0,
+    "recommended": true
+  },
+  {
+    "id": "TRN-02",
+    "title": "Excavator Safe Operation",
+    "description": "Best practices for excavator stabilization, boom swing safety, trench clearing, and load limits.",
+    "duration": "30 min",
+    "category": "Machine Handling",
+    "completion_percentage": 45,
+    "recommended": true
+  },
+  {
+    "id": "TRN-03",
+    "title": "Fuel Efficiency & Idle Management",
+    "description": "Strategies to reduce engine idling, optimize RPM during cycle work, and conserve fuel.",
+    "duration": "20 min",
+    "category": "Operational Efficiency",
+    "completion_percentage": 20,
+    "recommended": false
+  },
+  {
+    "id": "TRN-04",
+    "title": "Hazard Awareness & Site Safety",
+    "description": "Identifying overhead powerlines, ground instability, pedestrian zones, and blind spots.",
+    "duration": "25 min",
+    "category": "Hazard Prevention",
+    "completion_percentage": 80,
+    "recommended": false
+  },
+  {
+    "id": "TRN-05",
+    "title": "Emergency Procedures & Shutdown",
+    "description": "Emergency kill-switch operation, fire suppression, and emergency evacuation protocols.",
+    "duration": "15 min",
+    "category": "Emergency Response",
+    "completion_percentage": 100,
+    "recommended": false
+  }
+]
