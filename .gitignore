@@ -50,6 +50,7 @@ coverage.xml
 pytestdebug.log
 
 # Virtual environments
+backend/venv/
 venv/
 env/
 ENV/
