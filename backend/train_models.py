@@ -70,7 +70,7 @@ def train_and_save_models():
     task_model_path = os.path.join(models_dir, "task_time_model.pkl")
     joblib.dump(task_pipeline, task_model_path)
     print(f"[+] Task time prediction model saved to {task_model_path}")
-    print("[+] Model training completed successfully!")
+    print("[✓] Model training completed successfully!")
 
 if __name__ == "__main__":
     train_and_save_models()

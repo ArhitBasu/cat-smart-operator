@@ -1,4 +1,4 @@
-﻿import sys
+import sys
 import os
 from fastapi.testclient import TestClient
 
@@ -12,7 +12,7 @@ def run_all_tests():
         res = client.get("/health")
         assert res.status_code == 200, f"Health check failed: {res.text}"
         assert res.json()["status"] == "healthy"
-        print("[+] GET /health PASSED")
+        print("[✓] GET /health PASSED")
 
         # 2. Machines list
         res = client.get("/api/machines")
@@ -20,7 +20,7 @@ def run_all_tests():
         machines = res.json()["machines"]
         assert len(machines) >= 8
         assert any(m["machine_id"] == "EXC001" for m in machines)
-        print(f"[+] GET /api/machines PASSED ({len(machines)} machines returned)")
+        print(f"[✓] GET /api/machines PASSED ({len(machines)} machines returned)")
 
         # 3. Dashboard summary for EXC001
         res = client.get("/api/dashboard/EXC001")
@@ -29,7 +29,7 @@ def run_all_tests():
         assert dash["machine_id"] == "EXC001"
         assert "safety_status" in dash
         assert "seatbelt_compliance" in dash
-        print(f"[+] GET /api/dashboard/EXC001 PASSED (Safety Status: {dash['safety_status']}, Compliance: {dash['seatbelt_compliance']}%)")
+        print(f"[✓] GET /api/dashboard/EXC001 PASSED (Safety Status: {dash['safety_status']}, Compliance: {dash['seatbelt_compliance']}%)")
 
         # 4. Safety status for EXC001
         res = client.get("/api/safety/EXC001")
@@ -37,7 +37,7 @@ def run_all_tests():
         safety = res.json()
         assert safety["machine_id"] == "EXC001"
         assert "risk_level" in safety
-        print(f"[+] GET /api/safety/EXC001 PASSED (Risk Level: {safety['risk_level']})")
+        print(f"[✓] GET /api/safety/EXC001 PASSED (Risk Level: {safety['risk_level']})")
 
         # 5. Analytics for EXC001
         res = client.get("/api/analytics/EXC001")
@@ -45,7 +45,7 @@ def run_all_tests():
         analytics = res.json()
         assert "fuel" in analytics and len(analytics["fuel"]) > 0
         assert "idle_time" in analytics
-        print(f"[+] GET /api/analytics/EXC001 PASSED ({len(analytics['fuel'])} fuel data points)")
+        print(f"[✓] GET /api/analytics/EXC001 PASSED ({len(analytics['fuel'])} fuel data points)")
 
         # 6. Explainable Anomaly check for EXC001
         res = client.get("/api/anomalies/EXC001")
@@ -54,7 +54,7 @@ def run_all_tests():
         assert "anomaly" in anomaly
         assert "reason" in anomaly
         assert "contributing_factors" in anomaly
-        print(f"[+] GET /api/anomalies/EXC001 PASSED (Anomaly: {anomaly['anomaly']}, Severity: {anomaly.get('severity')}, Factors: {len(anomaly['contributing_factors'])})")
+        print(f"[✓] GET /api/anomalies/EXC001 PASSED (Anomaly: {anomaly['anomaly']}, Severity: {anomaly.get('severity')}, Factors: {len(anomaly['contributing_factors'])})")
 
         # 7. Machine Intelligence Summary for EXC001
         res = client.get("/api/machine-intelligence/EXC001")
@@ -67,7 +67,7 @@ def run_all_tests():
         assert 0 <= intel["machine_health_score"] <= 100
         assert 0 <= intel["operator_safety_score"] <= 100
         assert len(intel["key_findings"]) > 0
-        print(f"[+] GET /api/machine-intelligence/EXC001 PASSED (Overall Risk: {intel['overall_risk']}/100 [{intel['risk_level']}], Safety Score: {intel['safety_score']}/100, Efficiency Score: {intel['efficiency_score']}/100)")
+        print(f"[✓] GET /api/machine-intelligence/EXC001 PASSED (Overall Risk: {intel['overall_risk']}/100 [{intel['risk_level']}], Safety Score: {intel['safety_score']}/100, Efficiency Score: {intel['efficiency_score']}/100)")
 
         # 8. Task prediction with key_factors
         predict_payload = {
@@ -85,14 +85,14 @@ def run_all_tests():
         assert "lower_bound" in pred
         assert "upper_bound" in pred
         assert "key_factors" in pred and len(pred["key_factors"]) > 0
-        print(f"[+] POST /api/task/predict PASSED (Est: {pred['estimated_minutes']} min, Range: {pred['prediction_range']}, Top Factor: {pred['key_factors'][0]['feature']} [{pred['key_factors'][0]['importance']}])")
+        print(f"[✓] POST /api/task/predict PASSED (Est: {pred['estimated_minutes']} min, Range: {pred['prediction_range']}, Top Factor: {pred['key_factors'][0]['feature']} [{pred['key_factors'][0]['importance']}])")
 
         # 9. Get Incidents & Create Incident
         res = client.get("/api/incidents")
         assert res.status_code == 200, f"Get incidents failed: {res.text}"
         incidents = res.json()
         assert len(incidents) >= 3
-        print(f"[+] GET /api/incidents PASSED ({len(incidents)} incidents found)")
+        print(f"[✓] GET /api/incidents PASSED ({len(incidents)} incidents found)")
 
         new_incident = {
             "machine_id": "EXC001",
@@ -105,14 +105,14 @@ def run_all_tests():
         assert res.status_code == 201, f"Create incident failed: {res.text}"
         created_inc = res.json()
         assert created_inc["status"] == "OPEN"
-        print(f"[+] POST /api/incidents PASSED (Created ID: {created_inc['id']})")
+        print(f"[✓] POST /api/incidents PASSED (Created ID: {created_inc['id']})")
 
         # 10. Training hub
         res = client.get("/api/training?machine_id=EXC001")
         assert res.status_code == 200, f"Training failed: {res.text}"
         trn = res.json()
         assert len(trn["modules"]) >= 5
-        print(f"[+] GET /api/training PASSED ({len(trn['modules'])} modules available)")
+        print(f"[✓] GET /api/training PASSED ({len(trn['modules'])} modules available)")
 
         # 11. AI Assistant query
         assistant_payload = {
@@ -125,7 +125,7 @@ def run_all_tests():
         ast = res.json()
         assert "answer" in ast and len(ast["answer"]) > 0
         assert "recommendations" in ast
-        print(f"[+] POST /api/assistant PASSED (Answer: '{ast['answer']}')")
+        print(f"[✓] POST /api/assistant PASSED (Answer: '{ast['answer']}')")
 
         # 12. Signature 'Why?' Alert Explanation API
         explain_payload = {
@@ -137,12 +137,12 @@ def run_all_tests():
         assert "alert" in exp
         assert "why" in exp and len(exp["why"]) > 0
         assert "evidence" in exp and len(exp["evidence"]) > 0
-        print(f"[+] POST /api/assistant/explain-alert PASSED (Alert: '{exp['alert']}', Evidence items: {len(exp['evidence'])})")
+        print(f"[✓] POST /api/assistant/explain-alert PASSED (Alert: '{exp['alert']}', Evidence items: {len(exp['evidence'])})")
 
         # 13. Error handling test (404 Machine Not Found)
         res = client.get("/api/dashboard/NON_EXISTENT")
         assert res.status_code == 404, "Expected 404 for non-existent machine"
-        print("[+] 404 Error handling PASSED")
+        print("[✓] 404 Error handling PASSED")
 
     print("\n==================================================")
     print("ALL API ENDPOINTS & MACHINE INTELLIGENCE SERVICES PASSED!")
